@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void main(){
-    printf("Oi,\n");
-    printf("Tudo \n");
-    printf("Bem?\n");
+    printf("Oi, Tudo Bem?");
+   /* printf("Oi,");
+    printf("Tudo ");
+    printf("Bem?");*/
 }
