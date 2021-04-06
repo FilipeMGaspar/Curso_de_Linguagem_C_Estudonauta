@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    printf("Oi,\ntudo \nBem?");
+    printf("Oi,\ttudo \tBem?");
 }
 /*
 \n nova linha
