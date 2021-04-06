@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 void main(){
-    printf("Oi,\ntudo Bem?");
+    printf("Oi,\ntudo \nBem?");
 }
