@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    printf("C é \n \"SUPER\" \nFácil!");
+    printf("C é \n\"SUPER\" \nFácil!");
 }
 /*
 \n nova linha
