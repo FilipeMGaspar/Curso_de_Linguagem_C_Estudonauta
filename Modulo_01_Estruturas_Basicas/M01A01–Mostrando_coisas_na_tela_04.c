@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <locale.h>
 
 void main(){
+    setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
     printf("C é \n\"SUPER\" \nFácil!");
 }
 /*
@@ -14,3 +16,5 @@ void main(){
 \a beep
 %% percentagem
 */
+
+//setlocale(LC_ALL,"Portuguese")
