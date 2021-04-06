@@ -14,13 +14,11 @@ Giovana Silva   7.5
 <<<< EX002 - Especiais >>>>
 
 =.=.=.=.=.=.=.=.=.=.=.=.=.=.=
-
 \a  =   Beep
 \n  =   Nova Linha
 \t  =   Tabulação
 \\  =   Barra
 %%  =   Percentagem
 \?  =   Interrogação
-
 =.=.=.=.=.=.=.=.=.=.=.=.=.=.=
 */
