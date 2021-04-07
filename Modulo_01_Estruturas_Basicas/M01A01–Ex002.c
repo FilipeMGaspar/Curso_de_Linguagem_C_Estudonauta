@@ -5,7 +5,10 @@ void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
 
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
-    printf("\\a \t=\tBeep \n");
+    printf(" \\a \t=\tBeep \n");
+    printf(" \\n \t=\tNova Linha \n");
+    printf(" \\t \t=\tTabulação \n");
+
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
 }
 
