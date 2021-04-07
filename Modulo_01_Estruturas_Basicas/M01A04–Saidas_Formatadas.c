@@ -7,3 +7,10 @@ void main(){
     printf("Oi, Tudo Bem! \n");
     printf("","Gustavo",39);
 }
+
+/*
+%d  int
+%f  float ou double
+%c  Char
+%s  string
+*/
