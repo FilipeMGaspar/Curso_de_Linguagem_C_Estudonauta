@@ -4,5 +4,6 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("Oi, Tudo Bem!");
+    printf("Oi, Tudo Bem! \n");
+    printf("","Gustavo",39);
 }
