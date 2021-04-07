@@ -16,3 +16,12 @@ void main(){
 %c  Char
 %s  string
 */
+
+/*
+%e notação
+%hd short int
+%ld long int
+%hu unsigned short
+%u unsigned
+%lu unsigned long
+*/
