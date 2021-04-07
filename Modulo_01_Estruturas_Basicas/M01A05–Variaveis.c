@@ -11,3 +11,15 @@ void main(){
 
     printf("%s é do sexo %c tem %i anos e pesa %.2fKg \n",nome, sexo, idade, peso);
 }
+
+/*
+Regras de nomes variaveis
+
+    Começa com uma letra
+    Casesensitive
+    só usa letras, números e sublinhado
+    Nada de acentos
+    Não pode conter espaços
+    Não pode ter simbulo
+    Não pode ser uma palavra reservada
+*/
