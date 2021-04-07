@@ -10,6 +10,7 @@ void main(){
     printf(" \\t \t=\tTabulação \n");
     printf(" \\\\ \t=\tBarra \n");
     printf(" %%%% \t=\tPercentagem \n");
+    printf(" \\? \t=\tInterrogação \n");
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
 }
 
