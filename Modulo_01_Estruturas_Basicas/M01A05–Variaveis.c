@@ -9,5 +9,5 @@ void main(){
     char sexo = 'M';
     char nome[] = "Juvenal";
 
-    printf("%s é do sexo $c tem %i anos e pesa %.2fKg \n",nome, sexo, idade, peso);
+    printf("%s é do sexo %c tem %i anos e pesa %.2fKg \n",nome, sexo, idade, peso);
 }
