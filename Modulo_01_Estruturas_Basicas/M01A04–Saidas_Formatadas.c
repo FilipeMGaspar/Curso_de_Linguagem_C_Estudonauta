@@ -7,6 +7,7 @@ void main(){
     printf("Oi, Tudo Bem! \n");
     printf("O %s tem %i anos\n","Gustavo",39);
     printf("O seu peso atual é: %.2fKg \n" , 97.5);
+    printf("O seu sexo é: %C \n",'m');
 }
 
 /*
