@@ -8,7 +8,7 @@ void main(){
     printf(" \\a \t=\tBeep \n");
     printf(" \\n \t=\tNova Linha \n");
     printf(" \\t \t=\tTabulação \n");
-
+    printf(" \\\\ \t=\tBarra \n");
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
 }
 
