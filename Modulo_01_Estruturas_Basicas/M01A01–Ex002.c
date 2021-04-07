@@ -9,6 +9,7 @@ void main(){
     printf(" \\n \t=\tNova Linha \n");
     printf(" \\t \t=\tTabulação \n");
     printf(" \\\\ \t=\tBarra \n");
+    printf(" %%%% \t=\tPercentagem \n");
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
 }
 
