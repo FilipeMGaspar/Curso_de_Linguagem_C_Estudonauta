@@ -3,6 +3,10 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
+
+    printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
+    printf("\\a \t=\tBeep \n");
+    printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
 }
 
 /*
