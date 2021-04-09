@@ -2,10 +2,12 @@
 #include <locale.h>
 
 void main(){
-    int total = 8; //variavel
     setlocale(LC_ALL,"Portuguese");
 
-    printf("%d",total,"\n");
+    int total = 8; //variavel
+    //int IDADEVOTAR = 18;
+
+    printf("%d",total);
     total = 10;
-    printf("%d", total)
+    printf("\n%d", total);
 }
