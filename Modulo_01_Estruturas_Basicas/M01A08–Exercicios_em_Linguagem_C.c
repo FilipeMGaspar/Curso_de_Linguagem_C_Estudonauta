@@ -30,4 +30,13 @@ FIM.
  NOME: Claudio Peçanha
  SEXO [M/F]: M
  NOTA: 10
+
+ ===============================
+ Listagem Completa
+ --------------------------------
+ NOME               SEXO    NOTA
+ Gustavo             M       4,5
+ Maria da Silva      F       9.5
+ Claudio Peçamha     M       10.0
+ ---------------------------------
 */
