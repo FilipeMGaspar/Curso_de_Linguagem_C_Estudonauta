@@ -19,7 +19,7 @@ void main(){
     scanf("%c",&r);
     printf("Digite outra letra: ");
     scanf("%c",&s);
-    printf("Voce digitou a letra \"%c\"", r);
+    printf("Voce digitou as letra \"%c\" e \"%c\"", r, s);
 }
 
 /*  Lendo números
