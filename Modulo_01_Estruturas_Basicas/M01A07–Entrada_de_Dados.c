@@ -7,6 +7,14 @@ void main(){
 
 }
 
+/*  Lendo números
+    int num;
+    float media;
+
+    scanf("%d", &num);
+    scanf("%f", &media);
+*/
+
 /*
 %d  int
 %f  float/double
