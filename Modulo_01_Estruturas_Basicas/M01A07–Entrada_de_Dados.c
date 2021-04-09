@@ -4,6 +4,13 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    int num;
+    float media;
+
+    printf("Digite a sua idade: ");
+    scanf("%d", &num);
+    printf("Digite o seu peso: ");
+    scanf("%f", &media);
 
 }
 
@@ -20,7 +27,6 @@ void main(){
 %f  float/double
 %c  char
 %s  Cadeia = String
-
 
 %e notação
 #hd short int
