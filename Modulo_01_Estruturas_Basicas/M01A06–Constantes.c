@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-#define MOEDAEUR "EURO" //diretivas de préprocessamento
+#define MOEDAEUR "EURO" //Constante na diretivas de préprocessamento
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
