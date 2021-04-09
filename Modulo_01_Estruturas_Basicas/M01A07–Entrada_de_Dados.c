@@ -17,10 +17,12 @@ void main(){
     char s;
     printf("Digite uma letra: ");
     fflush(stdin); //Limpa o buffer do teclado
-    scanf("%c",&r);
+    //scanf("%c",&r);
+    r = getchar();
     printf("Digite outra letra: ");
     fflush(stdin); //Limpa o buffer do teclado
-    scanf("%c",&s);
+    //scanf("%c",&s);
+    s = getchar();
     printf("Voce digitou as letra \"%c\" e \"%c\"", r, s);
 }
 
@@ -35,6 +37,10 @@ void main(){
 /*Lendo Caracteres
     char resp;
     scanf("%c",&resp); //vai dar erro
+    resp = getchar(); //Para caracter
+*/
+
+/*
 */
 
 /*
