@@ -30,6 +30,7 @@ void main(){
     char nome[30]
     printf("Digite o seu nome: ");
     scanf("%s", nome);
+    printf("Voce digitou \"%s\" ", nome);
 }
 
 /*  Lendo números
