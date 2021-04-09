@@ -36,11 +36,13 @@ void main(){
 
 /*Lendo Caracteres
     char resp;
-    scanf("%c",&resp); //vai dar erro
+    scanf("%c",&resp);
     resp = getchar(); //Para caracter
 */
 
-/*
+/* Lendo String
+char nome[30];
+scanf("%s",&nome);
 */
 
 /*
