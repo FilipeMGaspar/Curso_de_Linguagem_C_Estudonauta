@@ -14,8 +14,11 @@ void main(){
 
     //Ler caracteres
     char r;
+    char s;
     printf("Digite uma letra: ");
     scanf("%c",&r);
+    printf("Digite outra letra: ");
+    scanf("%c",&s);
     printf("Voce digitou a letra \"%c\"", r);
 }
 
