@@ -4,18 +4,28 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    int n;
+    float m;
+    printf("Digite um número inteiro: ");
+    scanf("%d",&n);
+    printf("Você acabou de digitar o valor %d. Obrigado!\n",n);
+    printf("Digite um número real: ");
+    scanf("%f",&m);
+    printf("Você acabou de digitar o valor %.2f. Obrigado!\n",m);
+
+    /*
     int idade;
-    float media;
+    float peso;
 
     printf("Digite a sua idade: ");
     scanf("%d", &idade);
     printf("Digite o seu peso: ");
-    scanf("%f", &media);
+    scanf("%f", &peso);
 
     printf("\n\n");
     printf("IDADE: %d",idade);
-    printf("\nPESO: %f",peso);
-
+    printf("\nPESO: %.2f",peso);
+    */
 }
 
 /*  Lendo números
