@@ -12,6 +12,11 @@ void main(){
     scanf("%f",&m);
     printf("Você acabou de digitar os valores %d e %.2f. Obrigado!\n", n, m);
 
+    //Ler caracteres
+    char r;
+    printf("Digite uma letra: ");
+    scanf("%c",&r);
+    printf("Você digitou a letra %c", r);
 }
 
 /*  Lendo números
@@ -20,6 +25,11 @@ void main(){
 
     scanf("%d", &num);
     scanf("%f", &media);
+*/
+
+/*Lendo Caracteres
+    char resp;
+    scanf("%c",&resp); //vai dar erro
 */
 
 /*
