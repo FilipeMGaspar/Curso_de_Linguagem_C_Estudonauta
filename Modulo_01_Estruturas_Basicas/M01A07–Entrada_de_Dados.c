@@ -16,8 +16,10 @@ void main(){
     char r;
     char s;
     printf("Digite uma letra: ");
+    fflush(stdin); //Limpa o buffer do teclado
     scanf("%c",&r);
     printf("Digite outra letra: ");
+    fflush(stdin); //Limpa o buffer do teclado
     scanf("%c",&s);
     printf("Voce digitou as letra \"%c\" e \"%c\"", r, s);
 }
