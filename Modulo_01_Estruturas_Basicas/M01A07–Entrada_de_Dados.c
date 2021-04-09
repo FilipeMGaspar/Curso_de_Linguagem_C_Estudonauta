@@ -8,10 +8,9 @@ void main(){
     float m;
     printf("Digite um número inteiro: ");
     scanf("%d",&n);
-    printf("Você acabou de digitar o valor %d. Obrigado!\n",n);
     printf("Digite um número real: ");
     scanf("%f",&m);
-    printf("Você acabou de digitar o valor %.2f. Obrigado!\n",m);
+    printf("Você acabou de digitar os valores %d e %.2f. Obrigado!\n", n, m);
 
     /*
     int idade;
