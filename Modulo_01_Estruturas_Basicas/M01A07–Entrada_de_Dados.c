@@ -31,11 +31,13 @@ void main(){
     char endereco[40];
 
     printf("Digite o seu nome: ");
+    fflush(stdin); //Limpa o buffer do teclado
     gets(nome); //leitura de string
     printf("Digite a sua morada: ");
+    fflush(stdin); //Limpa o buffer do teclado
     gets(endereco); //leitura de string
     printf("Sr. %s ", nome);
-    printf("\n %s ", endereco);
+    printf("\n%s \n", endereco);
 }
 
 /*  Lendo números
