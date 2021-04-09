@@ -28,9 +28,14 @@ void main(){
 
     //Ler Strings
     char nome[30];
+    char endereco[40];
+
     printf("Digite o seu nome: ");
     gets(nome); //leitura de string
-    printf("Voce digitou \"%s\" ", nome);
+    printf("Digite a sua morada: ");
+    gets(endereco); //leitura de string
+    printf("Sr. %s ", nome);
+    printf("\n %s ", endereco);
 }
 
 /*  Lendo números
