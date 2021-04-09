@@ -27,9 +27,9 @@ void main(){
     //printf("Voce digitou as letra \"%c\" e \"%c\"", r, s);
 
     //Ler Strings
-    char nome[30]
+    char nome[30];
     printf("Digite o seu nome: ");
-    scanf("%s", nome);
+    gets(nome); //leitura de string
     printf("Voce digitou \"%s\" ", nome);
 }
 
@@ -48,8 +48,8 @@ void main(){
 */
 
 /* Lendo String
-char nome[30];
-scanf("%s" ,nome);//para string
+    char nome[30];
+    gets(nome);
 */
 
 /*
