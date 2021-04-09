@@ -2,7 +2,7 @@
 #include <locale.h>
 
 void main(){
-    setlocale(LC_ALL,"Portuguese");
+    //setlocale(LC_ALL,"Portuguese");
 
     int n;
     float m;
