@@ -4,13 +4,17 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    int num;
+    int idade;
     float media;
 
     printf("Digite a sua idade: ");
-    scanf("%d", &num);
+    scanf("%d", &idade);
     printf("Digite o seu peso: ");
     scanf("%f", &media);
+
+    printf("\n\n");
+    printf("IDADE: %d",idade);
+    printf("\nPESO: %f",peso);
 
 }
 
