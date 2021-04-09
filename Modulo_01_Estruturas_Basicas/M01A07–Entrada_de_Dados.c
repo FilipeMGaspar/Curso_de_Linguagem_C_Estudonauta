@@ -12,19 +12,6 @@ void main(){
     scanf("%f",&m);
     printf("Você acabou de digitar os valores %d e %.2f. Obrigado!\n", n, m);
 
-    /*
-    int idade;
-    float peso;
-
-    printf("Digite a sua idade: ");
-    scanf("%d", &idade);
-    printf("Digite o seu peso: ");
-    scanf("%f", &peso);
-
-    printf("\n\n");
-    printf("IDADE: %d",idade);
-    printf("\nPESO: %.2f",peso);
-    */
 }
 
 /*  Lendo números
