@@ -3,11 +3,11 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    char nome[];
+    char nome[30];
 
     printf("Qual é o seu nome? ");
     gets(nome);
-    printf("Muito prazer, %s\n",nome)
+    printf("Muito prazer, %s\n",nome);
 
 }
 
