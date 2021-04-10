@@ -10,7 +10,9 @@ void main(){
     gets(nome);
     printf("Quantos anos você tem? ");
     scanf("%d", &idade);
-    printf("Muito prazer, %s\n",nome);
+
+    printf("Muito prazer, %s\n", nome);
+    printf("Você tem %d anos e pesa", idade);
 }
 
 /* <<< EX003 - Dados >>>
