@@ -58,10 +58,10 @@ void main(){
     printf("=============================== \n");
     printf("\tListagem Completa \n");
     printf("----------------------------------------\n");
-    printf("NOME \t\t\tSEXO \tNOTA \n");
-    printf("%s \t\t%c \t%.2f\n", p_nome, p_sexo, p_nota);
-    printf("%s \t\t%c \t%.2f\n", s_nome, s_sexo, s_nota);
-    printf("%s \t\t%c \t%.2f\n", t_nome, t_sexo, t_nota);
+    printf("NOME \t\t\t\tSEXO \tNOTA \n");
+    printf("%s \t\t\t%c \t%.2f\n", p_nome, p_sexo, p_nota);
+    printf("%s \t\t\t%c \t%.2f\n", s_nome, s_sexo, s_nota);
+    printf("%s \t\t\t%c \t%.2f\n", t_nome, t_sexo, t_nota);
     printf("----------------------------------------\n");
 }
 
