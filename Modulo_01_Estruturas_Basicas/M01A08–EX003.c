@@ -5,14 +5,17 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     char nome[30];
     int idade;
+    float peso;
 
     printf("Qual é o seu nome? ");
     gets(nome);
     printf("Quantos anos você tem? ");
     scanf("%d", &idade);
-
+    printf("Qual é o seu peso? (kg) ");
+    scanf("%f", &peso);
     printf("Muito prazer, %s\n", nome);
-    printf("Você tem %d anos e pesa", idade);
+    printf("Você tem %d anos e pesa %.2fKg Correcto?\n", idade ,peso);
+    printf("FIM!");
 }
 
 /* <<< EX003 - Dados >>>
