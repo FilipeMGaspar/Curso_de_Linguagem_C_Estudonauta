@@ -3,17 +3,34 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
-    char nome[30];
-    char sexo;
-    float nota;
+    char p_nome[30], s_nome[30];
+    char p_sexo. s_sexo;
+    float p_nota, s_nota;
 
 
     printf("Cadastrando a primeira pessoa:\n");
     printf("------------------------------------- \n");
     printf("NOME: ");
-    gets(nome);
-    printf("SEXO [M/F]: ")
-    sexo = getchar();
+    fflush(stdin); //Limpa o buffer do teclado
+    gets(p_nome);
+    printf("SEXO [M/F]: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    p_sexo = getchar();
+    printf("NOTA: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    scanf("%f", p_nota);
+
+    printf("Cadastrando a segunda pessoa:\n");
+    printf("------------------------------------- \n");
+    printf("NOME: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    gets(s_nome);
+    printf("SEXO [M/F]: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    s_sexo = getchar();
+    printf("NOTA: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    scanf("%f", s_nota);
 
 }
 
