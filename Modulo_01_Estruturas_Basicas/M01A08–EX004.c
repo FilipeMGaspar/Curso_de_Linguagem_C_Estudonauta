@@ -28,9 +28,7 @@ void main(){
     fflush(stdin); //Limpa o buffer do teclado
     scanf("%f", &p_nota);
 
-    printf("\n\n");
-    printf("Nome: %s | Sexo: %c | Nota: %.2f",p_nome, p_sexo, p_nota);
-
+    printf("\n");
     printf("Cadastrando a segunda pessoa:\n");
     printf("------------------------------------- \n");
     printf("NOME: ");
@@ -43,9 +41,7 @@ void main(){
     fflush(stdin); //Limpa o buffer do teclado
     scanf("%f", &s_nota);
 
-     printf("\n\n");
-    printf("Nome: %s | Sexo: %c | Nota: %.2f",s_nome, s_sexo, s_nota);
-
+    printf("\n");
     printf("Cadastrando a terceira pessoa:\n");
     printf("------------------------------------- \n");
     printf("NOME: ");
@@ -58,10 +54,12 @@ void main(){
     fflush(stdin); //Limpa o buffer do teclado
     scanf("%f", &t_nota);
 
-    printf("\n\n");
-    printf("Nome: %s | Sexo: %c | Nota: %.2f",t_nome, t_sexo, t_nota);
-
-     printf("\n\n");
+    printf("\n");
+    printf("============================== \n");
+    printf("\tListagem Completa \n");
+    printf("--------------------------------\n");
+    printf("NOME \tSEXO \tNOTA \n");
+    printf("--------------------------------\n");
 }
 
 /* <<< EX004 - Listagem >>>
