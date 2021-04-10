@@ -55,10 +55,11 @@ void main(){
     scanf("%f", &t_nota);
 
     printf("\n");
-    printf("============================== \n");
+    printf("=============================== \n");
     printf("\tListagem Completa \n");
     printf("--------------------------------\n");
     printf("NOME \tSEXO \tNOTA \n");
+    printf("%s \t\t%c \t%.2f\n",p_nome, p_sexo, p_nome);
     printf("--------------------------------\n");
 }
 
