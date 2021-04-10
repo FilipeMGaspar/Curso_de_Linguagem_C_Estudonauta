@@ -3,6 +3,16 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
+    char nome[30];
+    char sexo;
+    float nota;
+
+
+    printf("Cadastrando a primeira pessoa:\n");
+    printf("------------------------------------- \n");
+    printf("NOME: ");
+    gets(nome);
+
 
 }
 
