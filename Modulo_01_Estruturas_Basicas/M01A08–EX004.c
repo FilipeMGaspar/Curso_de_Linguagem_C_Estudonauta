@@ -12,7 +12,8 @@ void main(){
     printf("------------------------------------- \n");
     printf("NOME: ");
     gets(nome);
-
+    printf("SEXO [M/F]: ")
+    sexo = getchar();
 
 }
 
