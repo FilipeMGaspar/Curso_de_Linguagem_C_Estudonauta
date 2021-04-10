@@ -3,9 +3,17 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
-    char p_nome[30], s_nome[30];
-    char p_sexo. s_sexo;
-    float p_nota, s_nota;
+    char p_nome[30];
+    char p_sexo;
+    float p_nota;
+
+    char s_nome[30];
+    char s_sexo;
+    float s_nota;
+
+    char t_nome[30];
+    char t_sexo;
+    float t_nota;
 
 
     printf("Cadastrando a primeira pessoa:\n");
@@ -19,7 +27,7 @@ void main(){
     printf("NOTA: ");
     fflush(stdin); //Limpa o buffer do teclado
     scanf("%f", p_nota);
-
+/*
     printf("Cadastrando a segunda pessoa:\n");
     printf("------------------------------------- \n");
     printf("NOME: ");
@@ -32,6 +40,19 @@ void main(){
     fflush(stdin); //Limpa o buffer do teclado
     scanf("%f", s_nota);
 
+    printf("Cadastrando a terceira pessoa:\n");
+    printf("------------------------------------- \n");
+    printf("NOME: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    gets(t_nome);
+    printf("SEXO [M/F]: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    t_sexo = getchar();
+    printf("NOTA: ");
+    fflush(stdin); //Limpa o buffer do teclado
+    scanf("%f", t_nota);
+
+*/
 }
 
 /* <<< EX004 - Listagem >>>
