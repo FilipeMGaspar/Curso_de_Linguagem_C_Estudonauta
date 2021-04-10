@@ -2,7 +2,7 @@
 #include <locale.h>
 
 void main(){
-    setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
+    //setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
     char p_nome[30];
     char p_sexo;
     float p_nota;
@@ -26,7 +26,9 @@ void main(){
     p_sexo = getchar();
     printf("NOTA: ");
     fflush(stdin); //Limpa o buffer do teclado
-    scanf("%f", p_nota);
+    scanf("%f", &p_nota);
+
+    printf("Nome: %s | Sexo: %c | Nota: %.2f",p_nome, p_sexo, p_nota);
 /*
     printf("Cadastrando a segunda pessoa:\n");
     printf("------------------------------------- \n");
