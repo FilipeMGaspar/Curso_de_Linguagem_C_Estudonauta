@@ -5,14 +5,17 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-
     srand(time(NULL));//Utiliza o relógio do sistema para gerar número aleatórios
+
     int gerado = rand() % 5 + 1;//Gera entre 0 e 5
+    int palpite;
 
     printf("<<< EX005 - Será que vocè acerta? >>> \n\n");
 
     printf("Vou pensar num número entre 1 e 5. \n");
-    printf("Tente adivinhar!");
+    printf("Tente adivinhar! \n\n");
+
+    printf("Qual é o seu palpite? ");
 }
 
 /* <<< EX005 - Será que vocè acerta? >>>
