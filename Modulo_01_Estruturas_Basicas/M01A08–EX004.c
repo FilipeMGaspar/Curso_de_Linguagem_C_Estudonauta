@@ -15,6 +15,7 @@ void main(){
     char t_sexo;
     float t_nota;
 
+    printf("<<< EX004 - Listagem >>> \n\n");
 
     printf("Cadastrando a primeira pessoa:\n");
     printf("------------------------------------- \n");
