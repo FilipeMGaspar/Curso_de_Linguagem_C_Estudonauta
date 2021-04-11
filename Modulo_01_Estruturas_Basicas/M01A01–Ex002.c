@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
 
+    printf("<<<< EX002 - Especiais >>>> \n\n");
     printf("=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n");
     printf(" \\a \t=\tBeep \n");
     printf(" \\n \t=\tNova Linha \n");
