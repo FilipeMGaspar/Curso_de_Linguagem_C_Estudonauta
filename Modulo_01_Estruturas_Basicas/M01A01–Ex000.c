@@ -4,7 +4,9 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("Olá, Mundo!");
+    printf ("<<< EX000 - Mensagem no Ecrã! \n\n");
+    printf("Olá, Mundo! \n");
+    printf("Ufa! Já estou LIVRE da maldição. \n");
 }
 
 /* Escrever no ecrã
