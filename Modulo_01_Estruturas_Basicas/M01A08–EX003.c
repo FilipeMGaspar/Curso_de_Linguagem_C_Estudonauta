@@ -7,6 +7,7 @@ void main(){
     int idade;
     float peso;
 
+    printf("<<< EX003 - Dados >>> \n\n");
     printf("Qual é o seu nome? ");
     gets(nome);
     printf("Quantos anos você tem? ");
