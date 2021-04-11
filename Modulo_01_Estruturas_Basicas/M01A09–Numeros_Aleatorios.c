@@ -7,6 +7,6 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
     srand(time(NULL));
-    int n;
-
+    int n =rand();
+    printf("Eu gerei o numero (%d)", n);
 }
