@@ -8,6 +8,8 @@ void main(){
 
     srand(time(NULL));//Utiliza o relógio do sistema para gerar número aleatórios
     int gerado = rand() % 5 + 1;//Gera entre 0 e 5
+
+
 }
 
 /* <<< EX005 - Será que vocè acerta? >>>
