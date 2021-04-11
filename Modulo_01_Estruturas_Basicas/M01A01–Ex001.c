@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese"); //Define a lingua para Portugês
 
+    printf("<<<< EX001 - Listagem >>>> \n\n");
     printf("Listagem de Alunos \n");
     printf("Nome \t\tNota \n");
     printf("-------------------- \n");
