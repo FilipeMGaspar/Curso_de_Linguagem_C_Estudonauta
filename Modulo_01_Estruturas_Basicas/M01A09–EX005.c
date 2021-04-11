@@ -16,6 +16,11 @@ void main(){
     printf("Tente adivinhar! \n\n");
 
     printf("Qual é o seu palpite? ");
+    fflush(stdin); //Limpa o buffer do teclado
+    scanf("%d", &palpite);
+
+    printf("\n");
+    printf("Eu pensei no número %d o seu palpite foi o número %d.\n", gerado, palpite);
 }
 
 /* <<< EX005 - Será que vocè acerta? >>>
