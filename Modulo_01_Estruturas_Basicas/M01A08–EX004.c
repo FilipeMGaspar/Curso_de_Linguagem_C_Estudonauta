@@ -57,12 +57,12 @@ void main(){
     printf("\n");
     printf("=============================== \n");
     printf("\tListagem Completa \n");
-    printf("----------------------------------------\n");
+    printf("------------------------------------------------------\n");
     printf("NOME \t\t\t\t\tSEXO \tNOTA \n");
-    printf("%-30s \t\t %c \t%.2f\n", p_nome, p_sexo, p_nota);
-    printf("%-30s \t\t %c \t%.2f\n", s_nome, s_sexo, s_nota);
-    printf("%-30s \t\t %c \t%.2f\n", t_nome, t_sexo, t_nota);
-    printf("----------------------------------------\n");
+    printf("%-30s \t\t %c \t %.2f\n", p_nome, p_sexo, p_nota);
+    printf("%-30s \t\t %c \t %.2f\n", s_nome, s_sexo, s_nota);
+    printf("%-30s \t\t %c \t %.2f\n", t_nome, t_sexo, t_nota);
+    printf("------------------------------------------------------\n");
 }
 
 /* <<< EX004 - Listagem >>>
