@@ -7,7 +7,7 @@ void main(){
     float n1 = 5.5;
     float n2 = 8.5;
 
-    float m = n1+ n2 /2;
+    float m = (n1+ n2) /2;
     printf("A media e de %.2f", m);
 
    /*
