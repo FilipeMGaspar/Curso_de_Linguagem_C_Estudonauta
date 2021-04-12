@@ -28,3 +28,12 @@ void main(){
 %   Resto da divisão inteiro
 
 */
+
+/*Ordem de precedencia
+
+  ()
+    + - //Unário
+  * / %
+  + - //Forma binário
+
+*/
