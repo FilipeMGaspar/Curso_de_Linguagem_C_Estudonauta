@@ -4,11 +4,18 @@
 void main(){
     //setlocale(LC_ALL,"Portuguese");
 
-    float n1 = 5.5;
+    float preco = 123.35;
+    float desc = (preco * 10 /100);
+
+    printf("O valor do desconto e: %.2f \n", desc);
+    printf("Preco final: %.2f \n", (preco-desc));
+
+    /*float n1 = 5.5;
     float n2 = 8.5;
 
     float m = (n1+ n2) /2;
     printf("A media e de %.2f", m);
+    */
 
    /*
     int a = 3;
