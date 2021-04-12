@@ -6,9 +6,9 @@ void main(){
 
     int a = 3;
     int b = 2;
-    int r = a / b;
+    float r = a / b;
 
-    printf("O resultado e %d", r);
+    printf("O resultado e %.2f", r);
 }
 
 /*Operadores Aritméticos
