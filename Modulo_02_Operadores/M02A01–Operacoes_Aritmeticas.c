@@ -4,9 +4,10 @@
 void main(){
     //setlocale(LC_ALL,"Portuguese");
 
-    float preco = 123.35;
+    float preco = 1000;
     float desc = (preco * 10 /100);
 
+    printf("Preco Original: %.2f \n", preco);
     printf("O valor do desconto e: %.2f \n", desc);
     printf("Preco final: %.2f \n", (preco-desc));
 
