@@ -5,7 +5,7 @@ void main(){
     //setlocale(LC_ALL,"Portuguese");
 
     char l = 'J';
-    l = l + 1;
+    l = l + 5;
     printf("Estou com a letra %c na memoria \n",l);
     printf("\n\n");
 
