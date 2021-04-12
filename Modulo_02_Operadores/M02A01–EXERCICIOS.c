@@ -24,5 +24,13 @@
     Nota 1: 4,5
     Nota 2: 8
     O aluno gustavo tirou notas 4,5 e 8, ficou com média de 6,3
+*/
+
+/*<<< EX010 -  Preço do Produto>>>
+
+    Produto: Iphone
+    Preço de Iphone: R$ 7500
+    Desconto: (%) 12
+    O produto iPhone custava R$ 7500, mas com 12,00% de desconto, passa a custar R$ 6600,00.
 
 */
