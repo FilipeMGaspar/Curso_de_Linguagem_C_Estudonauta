@@ -11,3 +11,9 @@
 
      Analisando o número 9, seu dobro é 18 e sua terça parte é 3.
 */
+
+/* <<< EX008 - Alfabeto >>>
+    Digite uma letra: r
+
+    Antes da letra R temos a tera Q. depois temos a letra S.
+*/
