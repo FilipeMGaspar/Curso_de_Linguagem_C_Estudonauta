@@ -6,7 +6,7 @@ void main(){
 
     char l = 'J';
     l = l + 1;
-    printf("Estou com a letra %d na memoria \n",l);
+    printf("Estou com a letra %c na memoria \n",l);
     printf("\n\n");
 
     float preco = 1000;
