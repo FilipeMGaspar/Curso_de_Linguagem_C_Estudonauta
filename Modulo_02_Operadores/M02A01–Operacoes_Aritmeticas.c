@@ -5,10 +5,10 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
     int a = 3;
-    float b = 2;
-    float r = a / b;
+    int b = 2;
+    int r = a % b;
 
-    printf("O resultado e %.2f", r);
+    printf("O resultado e %d", r);
 }
 
 /*Operadores Aritméticos
