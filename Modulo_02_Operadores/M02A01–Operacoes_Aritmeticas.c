@@ -5,3 +5,13 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
 }
+
+/*Operadores Aritméticos
+
++   Soma
+-   Subtração
+*   Multiplicação
+/   Divisão
+%   Resto da divisão inteiro
+
+*/
