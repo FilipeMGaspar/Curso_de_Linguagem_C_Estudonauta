@@ -4,6 +4,11 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    int a = 3;
+    int b = 2;
+    int r = a + b;
+
+    printf("O resultado e %d", r);
 }
 
 /*Operadores Aritméticos
