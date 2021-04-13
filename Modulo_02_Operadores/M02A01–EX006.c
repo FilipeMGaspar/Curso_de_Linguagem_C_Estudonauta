@@ -7,6 +7,11 @@ void main(){
     int num;
     printf("Digite um número: ");
     scanf("%d", &num);
+
+    printf("\n");
+    printf("Analisando o número %d \n",num);
+    printf("Anterior: %d \n",(num-1));
+    printf("Seguinte: %d \n", (num+1));
 }
 /* <<< EX006 - Antecessor e Sucessor >>>
 
