@@ -2,7 +2,7 @@
 #include <locale.h>
 
 void main(){
-    setlocale(LC_ALL, "Portoguese");
+    setlocale(LC_ALL, "Portuguese");
     char nome_prod[20];
     float preco;
     float desconto;
@@ -10,7 +10,7 @@ void main(){
     printf("<<< EX010 -  Preço do Produto>>> \n\n");
     printf("Produto: ");
     gets(nome_prod);
-    printf("Preço do %s: R$ ", nome_prod);
+    printf("Preço de %s: R$ ", nome_prod);
 }
 
 /*<<< EX010 -  Preço do Produto>>>
