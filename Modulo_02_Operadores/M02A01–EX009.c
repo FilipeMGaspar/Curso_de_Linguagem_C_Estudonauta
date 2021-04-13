@@ -3,6 +3,9 @@
 
 void main(){
     setlocale(LC_ALL, "Portoguese");
+    float nota1, nota2;
+
+    printf("<<< EX009 -  Média do aluno>>> \n\n");
 
 }
 
