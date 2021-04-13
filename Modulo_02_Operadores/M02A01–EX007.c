@@ -3,9 +3,10 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int num;
 
     printf("<<< EX007 - Dobro e Terça parte >>> \n\n");
-
+    printf("Digite um número: ");
 }
 
 /* <<< EX007 - Dobro e Terça parte >>>
