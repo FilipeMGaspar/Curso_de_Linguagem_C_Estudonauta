@@ -3,6 +3,9 @@
 
 void main(){
     setlocale(LC_ALL, "Portoguese");
+    char nome_prod[20];
+    float preco;
+    float desconto;
 
     printf("<<< EX010 -  Preço do Produto>>> \n\n");
 }
