@@ -11,11 +11,14 @@ void main(){
     fflush(stdin);//Limpa o buffer do teclado
     gets(nome);
     printf("Nota 1: ");
+    fflush(stdin);//Limpa o buffer do teclado
     scanf("%f", &nota1);
     printf("Nota 2: ");
+    fflush(stdin);//Limpa o buffer do teclado
     scanf("%f", &nota2);
+    //Calculo da média
     media = (nota1+nota2)/2;
-    printf("O aluno %s, teve %.2f e %.2f, ficou com média de %f");
+    printf("O aluno %s, teve %.2f e %.2f, ficou com média de %.2f \n", nome, nota1, nota2, media);
 }
 
 /* <<< EX009 -  Média do aluno>>>
