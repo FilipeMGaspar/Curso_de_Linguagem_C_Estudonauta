@@ -9,9 +9,9 @@ void main(){
     scanf("%d", &num);
 
     printf("\n");
-    printf("Analisando o número %d \n",num);
-    printf("Anterior: %d \n",(num-1));
-    printf("Seguinte: %d \n", (num+1));
+    printf("Analisando o número %d, ",num);
+    printf("antecessor é %d ",(num-1));
+    printf("e seu sucessor é %d \n", (num+1));
 }
 /* <<< EX006 - Antecessor e Sucessor >>>
 
