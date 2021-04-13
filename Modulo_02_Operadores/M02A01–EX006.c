@@ -2,8 +2,11 @@
 #include <locale.h>
 
 void main(){
-    //setlocale(LC_ALL,"Portuguese");
+    setlocale(LC_ALL,"Portuguese");
 
+    int num;
+    printf("Digite um número: ");
+    scanf("%d", &num);
 }
 /* <<< EX006 - Antecessor e Sucessor >>>
 
