@@ -10,7 +10,7 @@ void main(){
 
     printf("\n");
     printf("Analisando o número %d, ",num);
-    printf("antecessor é %d ",(num-1));
+    printf("o seu antecessor é %d ",(num-1));
     printf("e seu sucessor é %d \n", (num+1));
 }
 /* <<< EX006 - Antecessor e Sucessor >>>
