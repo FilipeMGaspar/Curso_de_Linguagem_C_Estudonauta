@@ -3,7 +3,7 @@
 
 void main(){
     setlocale(LC_ALL, "Portoguese");
-    float nota1, nota2;
+    float nota1, nota2, media;
     char nome[20];
 
     printf("<<< EX009 -  Média do aluno>>> \n\n");
@@ -14,7 +14,8 @@ void main(){
     scanf("%f", &nota1);
     printf("Nota 2: ");
     scanf("%f", &nota2);
-
+    media = (nota1+nota2)/2;
+    printf("O aluno %s, teve %.2f e %.2f, ficou com média de %f");
 }
 
 /* <<< EX009 -  Média do aluno>>>
