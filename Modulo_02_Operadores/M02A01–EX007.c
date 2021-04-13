@@ -7,6 +7,8 @@ void main(){
 
     printf("<<< EX007 - Dobro e Terça parte >>> \n\n");
     printf("Digite um número: ");
+    scanf("%d", &num);
+    printf("Analisando o número %d, seu dobro é %d e sua terça parte é %d.");
 }
 
 /* <<< EX007 - Dobro e Terça parte >>>
