@@ -10,7 +10,8 @@ void main(){
     printf("Nome do Aluno(a): ");
     fflush(stdin);//Limpa o buffer do teclado
     gets(nome);
-
+    printf("Nota 1: ");
+    scanf("%f", &nota1);
 }
 
 /* <<< EX009 -  Média do aluno>>>
