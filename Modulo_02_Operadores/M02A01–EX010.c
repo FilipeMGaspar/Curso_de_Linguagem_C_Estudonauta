@@ -5,7 +5,7 @@ void main(){
     setlocale(LC_ALL, "Portuguese");
     char nome_prod[20];
     float preco;
-    float desconto;
+    float desconto, preco_final;
 
     printf("<<< EX010 -  Preço do Produto>>> \n\n");
     printf("Produto: ");
@@ -14,6 +14,8 @@ void main(){
     scanf("%f", &preco);
     printf("Desconto: (%%) ");
     scanf("%f",&desconto);
+    preco_final = preco - (preco * desconto / 100);
+
 }
 
 /*<<< EX010 -  Preço do Produto>>>
