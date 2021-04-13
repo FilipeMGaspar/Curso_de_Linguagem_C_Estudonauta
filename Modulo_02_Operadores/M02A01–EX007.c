@@ -4,6 +4,8 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    printf("<<< EX007 - Dobro e Terça parte >>> \n\n");
+
 }
 
 /* <<< EX007 - Dobro e Terça parte >>>

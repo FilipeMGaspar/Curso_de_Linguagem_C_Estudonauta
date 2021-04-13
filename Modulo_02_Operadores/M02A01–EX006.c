@@ -5,6 +5,8 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
     int num;
+
+    printf("<<< EX006 - Antecessor e Sucessor >>> \n\n");
     printf("Digite um número: ");
     scanf("%d", &num);
 
