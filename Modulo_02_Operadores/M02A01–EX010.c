@@ -11,6 +11,9 @@ void main(){
     printf("Produto: ");
     gets(nome_prod);
     printf("Preço de %s: R$ ", nome_prod);
+    scanf("%f", &preco);
+    printf("Desconto: (%%) ");
+    scanf("%f",&desconto);
 }
 
 /*<<< EX010 -  Preço do Produto>>>
