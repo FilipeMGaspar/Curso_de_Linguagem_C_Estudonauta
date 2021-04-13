@@ -3,10 +3,12 @@
 
 void main(){
     setlocale(LC_ALL, "Portoguese");
-    char letra
+    char letra;
 
     printf("<<< EX008 - Alfabeto >>> \n\n");
+    printf("Digite uma letra: ");
     letra = getchar();
+
 }
 
 /* <<< EX008 - Alfabeto >>>
