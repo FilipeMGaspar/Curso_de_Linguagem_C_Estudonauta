@@ -12,6 +12,9 @@ void main(){
     gets(nome);
     printf("Nota 1: ");
     scanf("%f", &nota1);
+    printf("Nota 2: ");
+    scanf("%f", &nota2);
+
 }
 
 /* <<< EX009 -  Média do aluno>>>
