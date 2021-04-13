@@ -10,6 +10,7 @@ void main(){
     printf("<<< EX010 -  Preço do Produto>>> \n\n");
     printf("Produto: ");
     gets(nome_prod);
+    printf("Preço do %s: R$ ", nome_prod);
 }
 
 /*<<< EX010 -  Preço do Produto>>>
