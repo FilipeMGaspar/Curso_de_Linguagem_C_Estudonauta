@@ -4,8 +4,12 @@
 void main(){
     setlocale(LC_ALL, "Portoguese");
     float nota1, nota2;
+    char nome[20];
 
     printf("<<< EX009 -  Média do aluno>>> \n\n");
+    printf("Nome do Aluno(a): ");
+    fflush(stdin);//Limpa o buffer do teclado
+    gets(nome);
 
 }
 
