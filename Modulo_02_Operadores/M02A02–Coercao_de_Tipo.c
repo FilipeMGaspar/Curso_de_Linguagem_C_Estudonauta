@@ -4,7 +4,7 @@
 void main(){
 setlocale(LC_ALL,"Portuguese");
 
-    int x = 5;
+    float x = 5.0;
     int y = 2;
     float z = x / y;
 
