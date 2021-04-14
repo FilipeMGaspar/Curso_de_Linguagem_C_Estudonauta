@@ -8,5 +8,5 @@ void main(){
     int b = 6;
     int c = (a==b);
 
-
+    printf("O resultado e %d \n", c);
 }
