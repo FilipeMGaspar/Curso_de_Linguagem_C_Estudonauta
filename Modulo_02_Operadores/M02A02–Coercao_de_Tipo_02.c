@@ -11,4 +11,7 @@ void main(){
     float t = (float)n/3;
 
     printf("a terca parte de %d e igual a %.2f \n", n, t);
+
+    int x = 65;
+    printf("\nEu tenho %d ",x);
 }
