@@ -8,5 +8,5 @@ setlocale(LC_ALL,"Portuguese");
     int y = 2;
     float z = x / y;
 
-    printf("O resultado e %f",z);
+    printf("O resultado e %.1f",z);
 }
