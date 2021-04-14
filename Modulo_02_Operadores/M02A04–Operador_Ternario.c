@@ -8,6 +8,10 @@ void main(){
     int c = (a>b) ? (b*2):(a+5);
     printf("O resultado e: %d \n", c);
 
+    float media = 5.5;
+    char sit[10];
+
+    sit = (media >= 7) ? "Aprovado" : "Reprovado";
 
     /*
      c = (x>0)?4:8
