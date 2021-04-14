@@ -4,9 +4,9 @@
 void main(){
 setlocale(LC_ALL, "Portuguese");
 
-    int x = 5.0;
+    int x = 5;
     int y = 2;
-    float z = (float)x / y;
+    float z = x / y;
 
     printf("O resultado e %.1f",z);
 }
