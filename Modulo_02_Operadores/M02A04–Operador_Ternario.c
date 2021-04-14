@@ -4,7 +4,7 @@
 void main(){
     //setlocale(LC_ALL, "Portuguese");
 
-    int a = 14, b = 8;
+    int a = 4, b = 8;
     int c = (a>b) ? (b*2):(a+5);
     printf("O resultado e: %d \n", c);
 
