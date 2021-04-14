@@ -10,7 +10,7 @@ void main(){
 
     float media = 5.5;
 
-    printf("A sua situacao e: %s", media>=7)?"Aprovado":"Reprovado";);
+    printf("A sua situacao e: %s \n", (media>=7)?"Aprovado":"Reprovado");
 
     /*
      c = (x>0)?4:8
