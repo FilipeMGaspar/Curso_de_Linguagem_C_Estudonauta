@@ -9,10 +9,8 @@ void main(){
     printf("O resultado e: %d \n", c);
 
     float media = 5.5;
-    char sit[10];
 
-    sit = (media>=7)?"Aprovado":"Reprovado";
-    printf("A sua situacao e: %s", sit);
+    printf("A sua situacao e: %s", media>=7)?"Aprovado":"Reprovado";);
 
     /*
      c = (x>0)?4:8
