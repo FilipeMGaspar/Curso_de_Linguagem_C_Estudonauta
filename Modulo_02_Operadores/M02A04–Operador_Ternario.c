@@ -8,7 +8,7 @@ void main(){
     int c = (a>b) ? (b*2):(a+5);
     printf("O resultado e: %d \n", c);
 
-    float media = 5.5;
+    float media = 8.5;
 
     printf("A sua situacao e: %s \n", (media>=7)?"Aprovado":"Reprovado");
 
