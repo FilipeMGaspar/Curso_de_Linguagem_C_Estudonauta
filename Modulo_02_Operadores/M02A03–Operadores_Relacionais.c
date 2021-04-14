@@ -4,7 +4,7 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
-    int a = 5;
+    int a = 6;
     int b = 6;
     int c = (a==b);
 
