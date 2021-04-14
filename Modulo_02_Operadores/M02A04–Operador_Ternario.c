@@ -11,7 +11,8 @@ void main(){
     float media = 5.5;
     char sit[10];
 
-    sit = (media >= 7) ? "Aprovado" : "Reprovado";
+    sit = (media>=7)?"Aprovado":"Reprovado";
+    printf("A sua situacao e: %s", sit);
 
     /*
      c = (x>0)?4:8
