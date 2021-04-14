@@ -10,6 +10,7 @@ void main(){
 
     printf("O resultado e %d \n", c);
 }
+
 /*
 true = 1
 false = 0
