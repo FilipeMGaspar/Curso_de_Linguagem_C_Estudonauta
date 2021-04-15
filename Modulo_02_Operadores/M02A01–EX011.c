@@ -3,8 +3,10 @@
 
 void main(){
     setlocale(LC_ALL, "Portuguese");
+    int num;
     printf("<<< EX011 - Par ou Ímpar >>> \n\n");
     printf("Digite um número qualquer: ");
+    scanf("%d", &num);
 
 }
 /*
