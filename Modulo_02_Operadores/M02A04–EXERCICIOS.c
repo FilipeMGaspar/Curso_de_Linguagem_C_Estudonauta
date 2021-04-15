@@ -15,7 +15,4 @@ Segunda nota: 8,5
 
 A média do aluno foi 7,0
 A sua sitação é: APROVADO
-
-
-
 */
