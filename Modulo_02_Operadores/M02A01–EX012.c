@@ -8,6 +8,11 @@ void main(){
     printf("Primeira nota: ");
     fflush(stdin);
     scanf("%f",&n1);
+    printf("Segunda nota: ");
+    fflush(stdin);
+    scanf("%f",&n2);
+
+    media = (n1+n2)/2;//Calculo da media
 }
 /*
 <<< EX012 - Situação do Aluno >>>
