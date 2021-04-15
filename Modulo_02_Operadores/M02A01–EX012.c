@@ -13,6 +13,7 @@ void main(){
     scanf("%f",&n2);
 
     media = (n1+n2)/2;//Calculo da media
+    printf("A média do aluno foi %.1f \n",media);
 }
 /*
 <<< EX012 - Situação do Aluno >>>
