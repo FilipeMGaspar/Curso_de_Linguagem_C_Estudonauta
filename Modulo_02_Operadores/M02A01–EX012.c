@@ -14,7 +14,7 @@ void main(){
 
     media = (n1+n2)/2;//Calculo da media
     printf("A média do aluno foi %.1f \n",media);
-    printf("A sua situação é: %s \n");
+    printf("A sua situação é: %s \n",((media>=7) ? "APROVADO" : "REPROVADO"));
 }
 /*
 <<< EX012 - Situação do Aluno >>>
