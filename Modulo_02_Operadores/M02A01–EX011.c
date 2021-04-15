@@ -7,7 +7,7 @@ void main(){
     printf("<<< EX011 - Par ou Ímpar >>> \n\n");
     printf("Digite um número qualquer: ");
     scanf("%d", &num);
-    printf("o número que você digitou é %s\n",((num%2 == 0) ? "PAR" : "ÍMPAR"));
+    printf("O número que você digitou é %s\n",((num%2 == 0) ? "PAR" : "ÍMPAR"));
 }
 /*
 <<< EX011 - Par ou Ímpar >>>
