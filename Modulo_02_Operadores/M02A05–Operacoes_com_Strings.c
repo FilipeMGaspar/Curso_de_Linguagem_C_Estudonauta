@@ -6,8 +6,8 @@ void main(){
     setlocale(LC_ALL, "Portuguese");
 
     char sit[10];
-    float media = 8,5;
+    float media = 8.5;
 
     strcpy(sit, (media>=7) ? "Aprovado" : "Reprovado");
-    printf("%s\n", sit);
+    printf("a sitação do aluno é: %s\n", sit);
 }
