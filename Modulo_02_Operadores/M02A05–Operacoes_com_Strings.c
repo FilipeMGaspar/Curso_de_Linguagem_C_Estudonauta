@@ -5,10 +5,15 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
+    char s1[] = "Gustavo";
+    char s2[] = "Gustavo";
+
+
+    /*
     char nome[] = "Gustavo";
     int tam = strlen(nome);
     printf("o nome %s tem %d letras \n", nome, tam);
-
+    */
 
    /*
    char sit[10];
@@ -23,4 +28,5 @@ void main(){
 
  strcpy(variavel, "String"); //copia o conteudo para uma string
  strlen(); tamanho da string
+ strcmp() // Comparação entre strings
 */
