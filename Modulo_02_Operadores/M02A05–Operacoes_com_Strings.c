@@ -5,11 +5,16 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
+   char s1[] = "Gustavo ";
+   char s2[] = "Guanabara";
+   printf("%s", strcat(s1, s2));
+
+   /*
     char s1[] = "Guanabara";
     char s2[] = "Fiuza da Silva";
     int res = strcmp(s1, s2);
     printf("O resultado da comparação e %d \n", res);
-
+    */
     /*
     char nome[] = "Gustavo";
     int tam = strlen(nome);
@@ -30,4 +35,5 @@ void main(){
  strcpy(variavel, "String"); //copia o conteudo para uma string
  strlen(); tamanho da string
  strcmp() // Comparação entre strings
+ strcat() //concatenação de strings
 */
