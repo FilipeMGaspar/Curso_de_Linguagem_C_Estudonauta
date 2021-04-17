@@ -5,9 +5,9 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
-    char nome[10];
+    char sit[10];
+    float media = 8,5;
 
-    //nome = "Gustavo"; //Gerou um erro
-    strcpy(nome, "Gustavo");
-    printf("Muito prazer em te conhecer, %s!", nome);
+    strcpy(sit, (media>=7) ? "Aprovado" : "Reprovado");
+    printf("%s\n", sit);
 }
