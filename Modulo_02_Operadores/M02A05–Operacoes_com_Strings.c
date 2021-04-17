@@ -6,8 +6,9 @@ void main(){
     setlocale(LC_ALL, "Portuguese");
 
     char s1[] = "Gustavo";
-    char s2[] = "Gustavo";
-
+    char s2[] = "Guanabara";
+    int res = strcmp(s1, s2);
+    printf("O resultado da comparação e %d \n", res);
 
     /*
     char nome[] = "Gustavo";
