@@ -29,14 +29,13 @@ void main(){
     int tam = strlen(nome);
     printf("o nome %s tem %d letras \n", nome, tam);
 
-
-   /*
-   char sit[10];
+    printf("\n");
+    printf("Operador ternário. O resultado é uma String \n");
+    char sit[10];
     float media = 3.5;
-
     strcpy(sit, (media>=7) ? "Aprovado" : "Reprovado");
-    printf("A sitação do aluno é: %s\n", sit);
-    */
+    printf("A sitação do aluno é: %s \n", sit);
+
 }
 /*
 #include <string.h>
