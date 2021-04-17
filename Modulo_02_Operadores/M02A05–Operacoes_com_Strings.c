@@ -5,6 +5,10 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
+    char nome[] = "Gustavo";
+    int tam = strlen(nome);
+    printf("o nome %s tem %d letras \n", nome, tam);
+
 
    /*
    char sit[10];
