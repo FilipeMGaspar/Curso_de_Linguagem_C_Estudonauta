@@ -11,3 +11,9 @@ void main(){
     strcpy(sit, (media>=7) ? "Aprovado" : "Reprovado");
     printf("A sitação do aluno é: %s\n", sit);
 }
+/*
+#include <string.h>
+
+ strcpy(variavel, "String"); //copia o conteudo para uma string
+ strlen(); tamanho da string
+*/
