@@ -5,9 +5,14 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
+   char nome[] = "Gustavo";
+   printf("%s", strupr(nome));
+
+   /*
    char s1[] = "Gustavo ";
    char s2[] = "Guanabara";
-   printf("%s", strcat(s1, s2));
+   printf("%s \n", strcat(s1, s2));
+   */
 
    /*
     char s1[] = "Guanabara";
@@ -36,4 +41,6 @@ void main(){
  strlen(); tamanho da string
  strcmp() // Comparação entre strings
  strcat() //concatenação de strings
+ strupr() //coloca em letras maiúsculas
+ strlwr() //coloca em letras minuscula
 */
