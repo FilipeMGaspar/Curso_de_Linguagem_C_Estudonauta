@@ -5,7 +5,7 @@
 void main(){
     setlocale(LC_ALL, "Portuguese");
 
-   char nome[] = "Gustavo";
+   char nome[] = "André";
    printf("Original: %s \n", nome);
    printf("Maiúsculas: %s \n", strupr(nome));
    printf("Minusculas: %s \n", strlwr(nome));
