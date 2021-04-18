@@ -6,3 +6,8 @@ void main(){
 
 
 }
+
+/*
+ x = x + 1; ou x += 1 ou x++;
+ y = y - 1; ou y -= 1 ou y--
+*/
