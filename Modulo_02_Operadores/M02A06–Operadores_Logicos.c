@@ -11,5 +11,9 @@ void main(){
     printf("%d > %d OU %d > %d : %s \n",a ,b ,a ,c ,(a>b || a>c) ? "Verdadeiro" : "Falso");
 }
 /*
+&&  Operador de conjunção e
 
+|| operador de Disjunção ou
+
+! operador de negação
 */
