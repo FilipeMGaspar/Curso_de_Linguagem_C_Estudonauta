@@ -16,8 +16,9 @@ void main(){
     c = 2;
     printf("%s \n",((a > b || a < c && !c!=4) ? "Verdadeiro" : "Falso"));
     //                 V   OU   F   && NÃO V
-    //                      V       &&   F
-    //                               F
+    //                 V   OU   F   &&   F
+    //                 V   OU        F
+    //                      V
 }
 /*
 &&  Operador de conjunção e
@@ -25,4 +26,15 @@ void main(){
 || operador de Disjunção ou
 
 ! operador de negação
+*/
+
+/*
+Ordem de precedencia dos operadores lógicos
+
+! Negação primeiro
+
+&& Conjunção segundo
+
+|| Disjunção no final
+
 */
