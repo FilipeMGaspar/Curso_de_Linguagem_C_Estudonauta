@@ -10,7 +10,8 @@ void main(){
 
     printf("\n\n Segundo exemplo \n");
     int n = 8;
-    printf("O valor é %d \n", ++n);
+    printf("O valor é %d \n", n++);
+    printf("E no final vale %d \n", n);
 }
 
 /*
