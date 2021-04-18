@@ -8,9 +8,9 @@ void main(){
 
     printf("Os valores são %d e %d \n", x, y);
 
-    printf("\n Segundo exemplo \n");
+    printf("\n\n Segundo exemplo \n");
     int n = 8;
-    printf("O valor é %d \n", n);
+    printf("O valor é %d \n", ++n);
 }
 
 /*
