@@ -5,8 +5,10 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
     int a = 4, b = 13 , c = 2;
-
-    printf("%d > %d E %d > %d : %s",a ,b ,a ,c ,(a>b && a>c) ? "Verdadeiro" : "Falso");
+    printf("Conjunção \n");
+    printf("%d > %d E %d > %d : %s \n",a ,b ,a ,c ,(a>b && a>c) ? "Verdadeiro" : "Falso");
+    printf("\nDisjunção \n");
+    printf("%d > %d OU %d > %d : %s \n",a ,b ,a ,c ,(a>b || a>c) ? "Verdadeiro" : "Falso");
 }
 /*
 
