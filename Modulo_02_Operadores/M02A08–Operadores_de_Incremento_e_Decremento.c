@@ -4,7 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int x = 5;
-    int y = 3 + x++;
+    int y = 3 + ++x;
 
     printf("Os valores são %d e %d \n", x, y);
 }
