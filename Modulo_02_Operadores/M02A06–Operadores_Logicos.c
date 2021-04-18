@@ -4,9 +4,9 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    int a = 4, b = 3;
+    int a = 4, b = 13 , c = 2;
 
-    printf("%s", (a>b) ? "Verdadeiro" : "Falso");
+    printf("%d > %d E %d > %d : %s",a ,b ,a ,c ,(a>b && a>c) ? "Verdadeiro" : "Falso");
 }
 /*
 
