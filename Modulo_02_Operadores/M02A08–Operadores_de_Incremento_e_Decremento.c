@@ -3,8 +3,9 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-
-
+    int n = 8;
+    n++;
+    printf("O resultado é %d \n", n);
 }
 
 /*
