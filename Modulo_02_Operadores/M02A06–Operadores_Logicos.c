@@ -6,5 +6,8 @@ void main(){
 
     int a = 4, b = 3;
 
-    printf("%d", (a>b));
+    printf("%s", (a>b) ? "Verdadeiro" : "Falso");
 }
+/*
+
+*/
