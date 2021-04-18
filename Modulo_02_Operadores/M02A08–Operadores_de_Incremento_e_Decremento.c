@@ -3,9 +3,10 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    int n = 8;
-    //n--;
-    printf("O resultado é %d \n", ++n);
+    int x = 5;
+    int y = 3 + x++;
+
+    printf("Os valores são %d e %d \n", x, y);
 }
 
 /*
