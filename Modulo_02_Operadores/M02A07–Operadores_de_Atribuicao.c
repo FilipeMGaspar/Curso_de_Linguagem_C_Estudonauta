@@ -4,9 +4,9 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    int a = 6;
+    float a = 5;
     //a = a + 2; //a += 2;
     //a += 2; // a = a + 2;
     a /= 2; //a = a /2;
-    printf("O valor de a é %d \n", a);
+    printf("O valor de a é %.1f \n", a);
 }
