@@ -7,6 +7,10 @@ void main(){
     int y = 3 + ++x;
 
     printf("Os valores são %d e %d \n", x, y);
+
+    printf("\n Segundo exemplo \n");
+    int n = 8;
+    printf("O valor é %d \n", n);
 }
 
 /*
