@@ -5,13 +5,18 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     printf("<<< EX013 - Operadores Bitwise >>> \n\n");
 
-    int n1, n2;
+    int n1, n2, r;
     printf("Digite o primeiro número: ");
     fflush(stdin);
     scanf("%d",$n1);
     printf("Digite o segundo número: ");
     fflush(stdin);
     scanf("%d",$n2);
+
+    printf("\n\n");
+    printf("------ OPERAÇÕES BITWISE ------ \n");
+    r = n1 & n2;
+    printf("Calculando %d & %d = %d \n", n1, n2, r);
 }
 
 /*
