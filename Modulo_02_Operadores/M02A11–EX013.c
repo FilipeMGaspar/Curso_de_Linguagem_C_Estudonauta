@@ -6,7 +6,12 @@ void main(){
     printf("<<< EX013 - Operadores Bitwise >>> \n\n");
 
     int n1, n2;
-    printf();
+    printf("Digite o primeiro número: ");
+    fflush(stdin);
+    scanf("%d",$n1);
+    printf("Digite o segundo número: ");
+    fflush(stdin);
+    scanf("%d",$n2);
 }
 
 /*
