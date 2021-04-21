@@ -7,6 +7,7 @@ void main(){
     int n;
     n = a & b;
     printf("%d & %d = %d\n", a, b, n);
+
     printf("\n");
 
     a = 27;
@@ -14,4 +15,10 @@ void main(){
     n = a | b;
     printf("%d | %d = %d\n", a, b, n);
 
+
+    printf("\n");
+    a = 15;
+    b = 7;
+    n = a ^ b;
+    printf("%d ^ %d = %d\n", a, b, n);
 }
