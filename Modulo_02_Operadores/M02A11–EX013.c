@@ -17,6 +17,12 @@ void main(){
     printf("------ OPERAÇÕES BITWISE ------ \n");
     r = n1 & n2;
     printf("Calculando %d & %d = %d \n", n1, n2, r);
+
+    r = n1 | n2;
+    printf("Calculando %d | %d = %d \n", n1, n2, r);
+
+    r = n1 ^ n2;
+    printf("Calculando %d ^ %d = %d \n", n1, n2, r);
 }
 
 /*
