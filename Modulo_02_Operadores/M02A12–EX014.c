@@ -15,8 +15,8 @@ void main(){
     scanf("%d", &desloca);
     printf("\n\n");
     printf("----- OPERAÇÕES SHIFT ----- \n");
-    printf("Calculando 18 >> 3 é igual a %d \n", (num >> desloca));
-    printf("Calculando 18 << 3 é igual a %d \n",(num << desloca));
+    printf("Calculando %d >> %d é igual a %d \n", num, desloca, (num >> desloca));
+    printf("Calculando %d << %d é igual a %d \n", num, desloca, (num << desloca));
 }
 /*
 <<< EX014 - Operadores de Deslocamento >>>
