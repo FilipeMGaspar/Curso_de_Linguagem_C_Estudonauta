@@ -1,4 +1,4 @@
-#include <stdio.stdio.h>
+#include <stdio.h>
 #include <locale.h>
 
 void main(){
@@ -12,12 +12,11 @@ void main(){
     scanf("%d", &num);
     printf("Digite o deslocamento: ");
     fflush(stdin);
-    scnaf("%d", desloca);
-
+    scanf("%d", &desloca);
     printf("\n\n");
-    printf("---- OPERAÇÕES SHIFT ---- \n");
-    printf("Calculando 18 >> 3 é igual a %d \n",(num >> desloca);
-    printf("Calculando 18 << 3 é igual a %d \n",(num << desloca);
+    printf("----- OPERAÇÕES SHIFT ----- \n");
+    printf("Calculando 18 >> 3 é igual a %d \n", (num >> desloca));
+    printf("Calculando 18 << 3 é igual a %d \n",(num << desloca));
 }
 /*
 <<< EX014 - Operadores de Deslocamento >>>
