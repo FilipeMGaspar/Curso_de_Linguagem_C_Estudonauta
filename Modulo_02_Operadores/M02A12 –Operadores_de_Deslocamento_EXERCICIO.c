@@ -8,5 +8,6 @@ Digite o deslocamento: 3
 Calculando 18 >> 3 é igual a 2
 Calculando 18 << 3 é igual a 144
 
-
 */
+
+
