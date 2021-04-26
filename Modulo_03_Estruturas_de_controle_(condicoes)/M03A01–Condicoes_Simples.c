@@ -14,5 +14,6 @@ void main(){
         printf("Velocidade: %.2f \n", vel);
         printf("Você foi multado! Pague R$ 100 \n");
     }
-    //printf("Dirija com cuidado! \n");
+    printf("\nDirija com cuidado! \n");
+    printf("\nSe beber não dirija!\n");
 }
