@@ -7,7 +7,8 @@ void main(){
 
     time_t t;
     time(&t);
-    struct tm*data;// tm nome do struct data ponteiro para tm
+    struct tm *data;// tm nome do struct data ponteiro para tm
     data = localtime(&t);
 
+    int d = data->tm_mday; //Dia atual
 }
