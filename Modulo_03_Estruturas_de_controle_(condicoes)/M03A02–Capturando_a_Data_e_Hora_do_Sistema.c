@@ -11,4 +11,6 @@ void main(){
     data = localtime(&t);
 
     int d = data->tm_mday; //Dia atual
+    int m = data->tm_mon + 1; // ME^s atual
+    printf("Data atual: %d - %d \n", d, m);
 }
