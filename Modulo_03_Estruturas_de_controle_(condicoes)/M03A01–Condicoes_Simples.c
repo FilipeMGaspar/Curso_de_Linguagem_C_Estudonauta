@@ -11,7 +11,8 @@ void main(){
     scnaf("%f",&vel);
 
     if(vel  > 80){
-        printf("Multado! Pague R$ 100 \n");
+        printf("Velocidade: %.2f \n", vel);
+        printf("Você foi multado! Pague R$ 100 \n");
     }
-    printf("Dirija com cuidado! \n");
+    //printf("Dirija com cuidado! \n");
 }
