@@ -3,7 +3,10 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    float nota1, nota2, media;
+
     printf(" <<< EX015 - Bons alunos merecem parabéns >>> \n\n");
+
 
 }
 
