@@ -13,5 +13,5 @@ void main(){
     if(vel  > 80){
         printf("Multado! Pague R$ 100 \n");
     }
-
+    printf("Dirija com cuidado! \n");
 }
