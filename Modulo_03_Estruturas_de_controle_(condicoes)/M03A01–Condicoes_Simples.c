@@ -8,7 +8,7 @@ void main(){
 
     printf("Digite a velocidade do carro: ");
     fflush(stdin);
-    scnaf("%f",&vel);
+    scanf("%f",&vel);
 
     if(vel  > 80){
         printf("Velocidade: %.2f \n", vel);
