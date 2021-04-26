@@ -15,6 +15,9 @@ void main(){
     media = (nota1 + nota2) / 2;
     printf("\n");
     printf("-------------------------------------- \n");
+    if(media >= 7){
+        printf("MEUS PARABÉNS! ");
+    }
     printf("A sua média final foi: %.2f \n", media);
     printf("-------------------------------------- \n");
 }
