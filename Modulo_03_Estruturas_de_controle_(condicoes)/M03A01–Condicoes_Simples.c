@@ -11,9 +11,8 @@ void main(){
     scanf("%f",&vel);
 
     if(vel  > 80){
-        printf("Velocidade: %.2f \n", vel);
-        printf("Você foi multado! Pague R$ 100 \n");
+        printf("Você foi multado! \n");
     }
     printf("\nDirija com cuidado! \n");
-    printf("\nSe beber não dirija!\n");
+    printf("Se beber não dirija!\n");
 }
