@@ -10,7 +10,8 @@ void main(){
     fflush(stdin);
     scnaf("%f",&vel);
 
-    if(){
-
+    if(vel  > 80){
+        printf("Multado! Pague R$ 100 \n");
     }
+
 }
