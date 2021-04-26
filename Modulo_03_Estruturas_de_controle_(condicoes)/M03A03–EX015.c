@@ -6,7 +6,12 @@ void main(){
     float nota1, nota2, media;
 
     printf(" <<< EX015 - Bons alunos merecem parabéns >>> \n\n");
-
+    printf("Digite a sua primeira nota: ");
+    fflush(stdin);
+    scanf("%f",&nota1);
+    printf("Digite a sua segunda nota: ");
+    fflush(stdin);
+    scanf("%f", &nota2);
 
 }
 
