@@ -12,5 +12,6 @@ void main(){
 
     int d = data->tm_mday; //Dia atual
     int m = data->tm_mon + 1; // ME^s atual
-    printf("Data atual: %d - %d \n", d, m);
+    int aaaa = data->tm_yday;
+    printf("Data atual: %d - %d - %d \n", d, m, aaaa);
 }
