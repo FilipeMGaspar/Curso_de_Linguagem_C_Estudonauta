@@ -23,4 +23,13 @@ tm_mon     Mês de 0 a 11
 
 tm_year    Ano  inicia em 1900 necessita de ser somado
 
+tm_wday    Dia da semana de 0 a 6
+
+tm_yday    Dia do ano de 0 a 365
+
+tm_hour    Hora atual de 0 a 23
+
+tm_min     Minutos de 0 a 59
+
+tm_sec     Segundos  de 0 a 59
 */
