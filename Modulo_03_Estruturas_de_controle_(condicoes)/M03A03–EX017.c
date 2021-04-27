@@ -5,3 +5,26 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
 
 }
+
+/*
+<<< EX017 - Fila de Banco >>>
+
+Em que ano você nasceu? 1978
+
+----------------------------------------
+Você tem 40 anos, certo?
+Seja bem vindo(a) ao Banco Estudonauta!
+----------------------------------------
+
+se a idade doi maior ou igual a 65
+
+Em que ano você nasceu? 1930
+
+----------------------------------------
+Você tem 91 anos, certo?
+Seja bem vindo(a) ao Banco Estudonauta!
+
+=== ATENÇÃO! DIRIJA-SE PARA A FILA PREFERENCIAL ===
+----------------------------------------
+
+*/
