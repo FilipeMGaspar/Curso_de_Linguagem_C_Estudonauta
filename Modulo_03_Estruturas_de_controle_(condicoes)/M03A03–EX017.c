@@ -1,9 +1,16 @@
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int ano_nascimento;
+
+    //Para captura da data do sistema
+    time_t t;
+    time(&t);
+    struct tm *data;
+    data = localtime($t);
 
     printf("<<< EX017 - Fila de Banco >>> \n\n");
 
