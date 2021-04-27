@@ -10,13 +10,16 @@ void main(){
     time_t t;
     time(&t);
     struct tm *data;
-    data = localtime($t);
+    data = localtime(&t);
+
+    int ano_atual = data->tm_year + 1900; //Ano atual que inicial em 1900
 
     printf("<<< EX017 - Fila de Banco >>> \n\n");
 
     printf("Em que ano você nasceu? ");
     fflush(stdin);
     scanf("%d",&ano_nascimento);
+    printf("Ano atual %d \n", ano_atual);
 }
 
 /*
