@@ -10,7 +10,7 @@ void main(){
     fflush(stdin);
     scanf("%f", &valor_compras);
     printf("---------------------------------------------- \n");
-    printf("Você comprou R$ %.2f na nossa loja. \n");
+    printf("Você comprou R$ %.2f na nossa loja. \n", valor_compras);
 
     if(valor_compras > 500){
         printf("===== ATENÇÃO ===== \n");
