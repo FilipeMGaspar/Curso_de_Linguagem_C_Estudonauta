@@ -3,7 +3,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    float valor_compras;
+    float valor_compras, desconto, valor_final;
 
     printf("<<< EX016 - Consumidor ganha desconto >>> \n\n");
     printf("Qual foi o valor total das compras? R$ ");
@@ -14,8 +14,10 @@ void main(){
 
     if(valor_compras > 500){
         printf("===== ATENÇÃO ===== \n");
-        printf("Por fazer mais de R$ 500 em compras, você vai receber R$ %.2f de desconto \n", (valor_compras*10/100));
-        printf("O valor a ser pago é: R$ %.2f \n",(valor_compras - (valor_compras*10/100)));
+        desconto = valor_compras*10/100;
+        valor_final = valor_compras - desconto;
+        printf("Por fazer mais de R$ 500 em compras, você vai receber R$ %.2f de desconto \n", desconto);
+        printf("O valor a ser pago é: R$ %.2f \n", valor_final);
     }
 
     printf("Muito obrigado! Volte sempre! \n");
