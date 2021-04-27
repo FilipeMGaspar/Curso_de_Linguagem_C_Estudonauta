@@ -19,10 +19,13 @@ void main(){
     printf("Em que ano você nasceu? ");
     fflush(stdin);
     scanf("%d",&ano_nascimento);
-    idade = ano_nascimento -ano_atual;
+    idade = ano_atual - ano_nascimento;
     printf("\n--------------------------------------------- \n");
     printf("Você tem %d anos, certo? \n", idade);
     printf("Seja bem vindo ao Banco Estudonauta \n");
+    if(idade >= 65){
+        printf("=== ATENÇÃO! DIRIJA-SE PARA A FILA PREFERENCIAL === \n");
+    }
     printf("--------------------------------------------- \n");
 
 }
