@@ -11,7 +11,12 @@ void main(){
     scanf("%f", &valor_compras);
     printf("---------------------------------------------- \n");
     printf("Você comprou R$ %.2f na nossa loja. \n");
+    if(valor_compras > 500){
+        printf("===== ATENÇÃO ===== \n");
+        printf("Por fazer mais de R$ 500 em compras, você vai receber R$ %.2f de desconto \n", (valor_compras*10/100));
+        printf();
 
+    }
     printf("Muito obrigado! Volte sempre! \n");
     printf("---------------------------------------------- \n");
 }
