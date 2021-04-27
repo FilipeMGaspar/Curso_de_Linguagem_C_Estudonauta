@@ -4,7 +4,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    int ano_nascimento;
+    int ano_nascimento, idade;
 
     //Para captura da data do sistema
     time_t t;
@@ -19,7 +19,12 @@ void main(){
     printf("Em que ano você nasceu? ");
     fflush(stdin);
     scanf("%d",&ano_nascimento);
-    printf("Ano atual %d \n", ano_atual);
+    idade = ano_nascimento -ano_atual;
+    printf("\n--------------------------------------------- \n");
+    printf("Você tem %d anos, certo? \n", idade);
+    printf("Seja bem vindo ao Banco Estudonauta \n");
+    printf("--------------------------------------------- \n");
+
 }
 
 /*
