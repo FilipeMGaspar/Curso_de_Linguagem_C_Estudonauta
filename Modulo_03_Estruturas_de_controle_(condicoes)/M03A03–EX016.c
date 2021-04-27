@@ -8,7 +8,12 @@ void main(){
     printf("<<< EX016 - Consumidor ganha desconto >>> \n\n");
     printf("Qual foi o valor total das compras? R$ ");
     fflush(stdin);
+    scanf("%f", &valor_compras);
+    printf("---------------------------------------------- \n");
+    printf("Você comprou R$ %.2f na nossa loja. \n");
 
+    printf("Muito obrigado! Volte sempre! \n");
+    printf("---------------------------------------------- \n");
 }
 
 /*
