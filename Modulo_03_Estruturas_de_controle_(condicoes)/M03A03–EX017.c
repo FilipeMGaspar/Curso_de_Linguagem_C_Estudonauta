@@ -3,7 +3,13 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int ano_nascimento;
 
+    printf("<<< EX017 - Fila de Banco >>> \n\n");
+
+    printf("Em que ano você nasceu? ");
+    fflush(stdin);
+    scanf("%d",&ano_nascimento);
 }
 
 /*
