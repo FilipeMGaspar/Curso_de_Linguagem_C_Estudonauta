@@ -3,8 +3,12 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    float valor_compras;
 
     printf("<<< EX016 - Consumidor ganha desconto >>> \n\n");
+    printf("Qual foi o valor total das compras? R$ ");
+    fflush(stdin);
+
 }
 
 /*
