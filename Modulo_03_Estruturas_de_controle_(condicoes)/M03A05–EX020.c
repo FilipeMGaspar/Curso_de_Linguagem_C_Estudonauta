@@ -15,12 +15,21 @@ void main(){
     fflush(stdin);
     scanf("%f",&dist);
     printf("\n------------------------------------------------\n");
+
+    if(dist < 0){ //evita valores negativos
+        dist *= -1; //calculo do oposto ou valor absoluto
+    }
     if(dist > 0 && dist <= 200){
         printf("Uma viagem de %.2f km vai custar R$ 0.50/km. \n",dist);
         printf("Valor total: R$ %.2f \n",(dist * 0.50));
+    } else {
+        printf("Uma viagem de %.2f km vai custar R$ 0.35/km. \n",dist);
+        printf("Valor total: R$ %.2f \n",(dist * 0.35));
     }
+
     printf("------------------------------------------------\n");
 }
+
 /*
 <<< EX020 - Preço da Passagem >>>
 
