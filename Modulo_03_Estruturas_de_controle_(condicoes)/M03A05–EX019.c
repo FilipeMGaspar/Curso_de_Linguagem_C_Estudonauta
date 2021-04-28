@@ -3,8 +3,14 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int ano;
 
     printf("<<< EX019 - Ano Bissexto >>> \n\n");
+    printf("Digitre um ano qualquer: ");
+    fflush(stdin);
+    scanf("%d",&ano);
+    printf("\n---------------------------- \n");
+    printf("O nao de %d ", ano);
 }
 
 /*
