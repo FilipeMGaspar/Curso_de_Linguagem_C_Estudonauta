@@ -25,7 +25,7 @@ void main(){
     if(idade >= 18){
         printf("Já fez 18 anos. \nEspero sinceramente que você tenha se alistado.\n");
     }else{
-        printf("Você ainda não tem 18 anos. \nNão pode se alistar.");
+        printf("Você ainda não tem 18 anos. \nNão pode se alistar. \n");
     }
 
     printf("-------------------------------------------------- \n");
