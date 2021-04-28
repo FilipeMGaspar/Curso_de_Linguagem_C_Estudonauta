@@ -27,7 +27,6 @@ Digite um ano qualquer: 2016
 O ano de 2016 é BISSEXTO.
 
 
-
 Digite um ano qualquer: 2018
 
 O ano de 2018 NÃO É BISSEXTO.
@@ -52,5 +51,18 @@ Distância total da viagem, em Km: 500
 Uma viagem de 500,00 km vai custar R$ 0.35/km.
 Valor Total: R$ 175,00.
 
+*/
+
+
+/*
+<<< EX021 - Inverso ou oposto >>>
+
+Digite um número: 4
+
+O inverso de 4 é igual a 0,2500
+
+
+Digite um número: -8
+O oposto de -8 é igual a 8
 
 */
