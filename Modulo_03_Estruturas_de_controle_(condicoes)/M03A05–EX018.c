@@ -8,11 +8,11 @@ void main(){
     time(&t);
     struct tm *data; //Ponteiro para tm
     data = localtime(&t);
-
+    int ano_atual = data->tm_year + 1900;
 
     printf("<<< EX018 - Serviço Militar V1.0 >>> \n\n");
 
-    printf("Atualmente estamos no ano de %d \n\n",);
+    printf("Atualmente estamos no ano de %d \n\n", ano_atual);
 }
 
 /*
