@@ -14,6 +14,8 @@ void main(){
     printf("O ano de %d ", ano);
     if(ano % 4 == 0){
         printf("É BISSEXTO");
+    }else{
+       printf("NÃO É BISSEXTO");
     }
    // printf("Resto da divisão de %d por 4 = %d ", ano,(ano%4) );
     printf("\n---------------------------- \n");
