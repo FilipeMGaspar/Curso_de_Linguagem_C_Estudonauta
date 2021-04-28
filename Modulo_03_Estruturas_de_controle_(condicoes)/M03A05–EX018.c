@@ -4,15 +4,21 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int ano_nascimento;
+    int idade;
+    //Capturar data e hora do sistema
     time_t t;
     time(&t);
     struct tm *data; //Ponteiro para tm
     data = localtime(&t);
-    int ano_atual = data->tm_year + 1900;
+    int ano_atual = data->tm_year + 1900; //Captura do ano atual
 
     printf("<<< EX018 - Serviço Militar V1.0 >>> \n\n");
 
     printf("Atualmente estamos no ano de %d \n\n", ano_atual);
+    printf("Em que ano você nasceu? ");
+    fflush(stdin);
+    scanf("%d",&ano_nascimento);
+
 }
 
 /*
