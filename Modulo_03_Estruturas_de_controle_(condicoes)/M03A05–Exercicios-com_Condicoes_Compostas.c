@@ -32,3 +32,25 @@ Digite um ano qualquer: 2018
 
 O ano de 2018 NÃO É BISSEXTO.
 */
+
+
+/*
+<<< EX020 - Preço da Passagem >>>
+
+======= TABELA DE PREÇOS =======
+Viagem até 200 Km   R$ 0.50/Km
+A partir de 200 Km   R$ 0.35/Km
+-----------------------------------
+
+Distância total da viagem, em Km: 100
+
+Uma viagem de 100,00 km vai custar R$ 0.50/km.
+Valor Total: R$ 50,00.
+
+Distância total da viagem, em Km: 500
+
+Uma viagem de 500,00 km vai custar R$ 0.35/km.
+Valor Total: R$ 175,00.
+
+
+*/
