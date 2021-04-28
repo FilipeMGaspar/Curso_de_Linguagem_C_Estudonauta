@@ -89,4 +89,5 @@ Você consegue comprar o ingresso.
 
 // O programa deve sofrer uma modificação pedindo a hora do filme
 // pergunta também quanto dinheiro tem
+// O Ingresso so pode ser comprado se tiver o dinheioro e estiver dentro do horário do filme
 */
