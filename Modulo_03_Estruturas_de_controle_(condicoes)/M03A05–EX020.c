@@ -14,6 +14,12 @@ void main(){
     printf("Distancia total da viagem: ");
     fflush(stdin);
     scanf("%f",&dist);
+    printf("\n------------------------------------------------\n");
+    if(dist > 0 && dist <= 200){
+        printf("Uma viagem de %.2f km vai custar R$ 0.50/km. \n",dist);
+        printf("Valor total: R$ %.2f \n",(dist * 0.50));
+    }
+    printf("------------------------------------------------\n");
 }
 /*
 <<< EX020 - Preço da Passagem >>>
