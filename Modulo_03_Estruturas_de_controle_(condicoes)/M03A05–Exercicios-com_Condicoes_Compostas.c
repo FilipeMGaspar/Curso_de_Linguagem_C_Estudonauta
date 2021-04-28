@@ -66,3 +66,24 @@ Digite um número: -8
 O oposto de -8 é igual a 8
 
 */
+
+
+/*
+<<< EX022 - Dá para ver o filme? >>>
+
+========= CINEMA ESTUDONAUTA =========
+HORÁRIO DO FILME: 19h - PREÇO DO INGRESSO: R$ 20
+-------------------------------------------------
+
+Quanto dinheiro você tem? R$ 10
+
+Agora são 17 horas.
+Infelizmente não é possivel comprar o ingresso.
+
+
+
+Quanto dinheiro você tem? R$ 50
+
+Agora são 17 horas.
+Você consegue comprar o ingresso.
+*/
