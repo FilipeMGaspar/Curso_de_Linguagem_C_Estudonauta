@@ -13,4 +13,5 @@ void main(){
     }else{
         printf("O número %d é ÍMPAR! \n", n);
     }
+    printf("\n ..: TERMINOU :.. \n");
 }
