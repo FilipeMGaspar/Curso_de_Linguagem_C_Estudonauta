@@ -3,12 +3,17 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    float dist;
 
     printf("<<< EX020 - Preço da Passagem >>> \n\n");
     printf("========= TABELA DE PREÇOS ========= \n");
     printf("Viagem até 200 Km \tR$ 0.50/Km \n");
     printf("A partir de 200 km \tR$ 0.35/km \n");
-    printf("------------------------------------ \n");
+    printf("------------------------------------ \n\n");
+
+    printf("Distancia total da viagem: ");
+    fflush(stdin);
+    scanf("%f",&dist);
 }
 /*
 <<< EX020 - Preço da Passagem >>>
