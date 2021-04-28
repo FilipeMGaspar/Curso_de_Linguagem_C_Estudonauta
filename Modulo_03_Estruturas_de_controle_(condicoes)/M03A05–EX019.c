@@ -10,7 +10,10 @@ void main(){
     fflush(stdin);
     scanf("%d",&ano);
     printf("\n---------------------------- \n");
-    printf("O nao de %d ", ano);
+
+    printf("O ano de %d \n", ano);
+    printf("Resto da divisão de %d por 4 = %d ", ano,(ano%4) );
+    printf("\n---------------------------- \n");
 }
 
 /*
