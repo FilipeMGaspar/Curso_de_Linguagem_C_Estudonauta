@@ -86,4 +86,7 @@ Quanto dinheiro você tem? R$ 50
 
 Agora são 17 horas.
 Você consegue comprar o ingresso.
+
+// O programa deve sofrer uma modificação pedindo a hora do filme
+// pergunta também quanto dinheiro tem
 */
