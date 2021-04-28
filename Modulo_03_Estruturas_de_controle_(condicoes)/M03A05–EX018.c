@@ -21,9 +21,13 @@ void main(){
     idade = ano_atual - ano_nascimento;
     printf("\n-------------------------------------------------- \n");
     printf("A sua idade atual são %d anos. \n",idade);
+
     if(idade >= 18){
-       printf("Já fez 18 anos. \nEspero sinceramente que você tenha se alistado.\n");
+        printf("Já fez 18 anos. \nEspero sinceramente que você tenha se alistado.\n");
+    }else{
+        printf("Você ainda não tem 18 anos. \nNão pode se alistar.");
     }
+
     printf("-------------------------------------------------- \n");
 
 }
