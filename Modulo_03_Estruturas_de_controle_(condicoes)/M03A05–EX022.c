@@ -3,10 +3,12 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-
+    int horario_filme = 19;
     printf("<<< EX022 - Dá para ver o filme? V_1.0 >>> \n\n");
 
-    printf("====== CINEMA ESTUDONAUTA ====== \n");
+    printf("=============== CINEMA ESTUDONAUTA =============== \n");
+    printf("HORÁRIO DO FILME: %dh - PREÇO DO INGRESSO: R$ 20 \n", horario_filme);
+    printf("--------------------------------------------------- \n");
 }
 
 /*
