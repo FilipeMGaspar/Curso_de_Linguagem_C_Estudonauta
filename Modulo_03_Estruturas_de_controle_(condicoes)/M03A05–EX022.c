@@ -10,7 +10,7 @@ void main(){
     printf("HORÁRIO DO FILME: %dh - PREÇO DO INGRESSO: R$ 20 \n", horario_filme);
     printf("-------------------------------------------------- \n");
 
-    printf("Quanto dinheiro você tem? R$ ");
+    printf("\nQuanto dinheiro você tem? R$ ");
 }
 
 /*
