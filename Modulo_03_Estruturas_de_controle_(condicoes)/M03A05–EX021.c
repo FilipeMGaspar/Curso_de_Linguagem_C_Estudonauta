@@ -10,10 +10,10 @@ void main(){
     fflush(stdin);
     scanf("%d",&num);
     if(num < 0){
-        printf("O oposto de %d é %d \n", num, (num * -1));
+        printf("\nO oposto de %d é %d \n", num, (num * -1));
     }else{
         float res = 1/(float)num;
-        printf("o inverso de %d é igual a %.4f \n",num, res);
+        printf("\nO inverso de %d é igual a %.4f \n",num, res);
     }
 }
 
