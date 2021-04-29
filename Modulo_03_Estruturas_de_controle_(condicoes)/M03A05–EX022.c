@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    printf("<<< EX022 - Dá para ver o filme? V_1.0 >>> \n\n");
 }
 
 /*
