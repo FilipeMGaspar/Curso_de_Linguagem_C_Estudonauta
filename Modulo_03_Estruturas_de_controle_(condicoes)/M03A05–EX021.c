@@ -4,6 +4,9 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    printf("<<< EX021 - Inverso ou oposto >>> \n\n");
+    printf("Digite um número: ");
+    fflush(stdin);
 }
 
 /*
