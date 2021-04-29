@@ -3,10 +3,15 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int num;
 
     printf("<<< EX021 - Inverso ou oposto >>> \n\n");
     printf("Digite um número: ");
     fflush(stdin);
+    scanf("%d",&num);
+    if(num < 0){
+        printf("O oposto de %d é %d \n", num, (num * -1));
+    }
 }
 
 /*
