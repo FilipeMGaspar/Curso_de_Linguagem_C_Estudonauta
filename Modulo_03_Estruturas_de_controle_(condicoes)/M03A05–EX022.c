@@ -1,10 +1,18 @@
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int horario_filme = 19;
     float dinheiro;
+
+    //Captura da ora do sistema.
+    time_t t;
+    time(&t);
+    struct tm *data;
+    data = localtime(&t);
+
     printf("<<< EX022 - Dá para ver o filme? V_1.0 >>> \n\n");
 
     printf("=============== CINEMA ESTUDONAUTA =============== \n");
