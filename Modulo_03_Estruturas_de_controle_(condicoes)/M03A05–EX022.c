@@ -4,7 +4,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    int horario_filme = 19;
+    int horario_filme = 11;
     float dinheiro;
 
     //Captura da ora do sistema.
@@ -25,7 +25,7 @@ void main(){
     scanf("%f",&dinheiro);
     printf("\n--------------------------------------------------- \n");
     printf("Agora são %d horas \n", hora);
-    if(dinheiro > 0 && dinheiro < 20){
+    if(dinheiro > 0 && dinheiro < 20 || hora != horario_filme){
         printf("Infelizmente não é possivel comprar o ingresso.");
     }else{
         printf("Você consegue comprar o ingresso.");
