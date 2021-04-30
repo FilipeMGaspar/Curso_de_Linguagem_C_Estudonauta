@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int horario_filme = 19;
+    float dinheiro;
     printf("<<< EX022 - Dá para ver o filme? V_1.0 >>> \n\n");
 
     printf("=============== CINEMA ESTUDONAUTA =============== \n");
@@ -11,6 +12,8 @@ void main(){
     printf("-------------------------------------------------- \n");
 
     printf("\nQuanto dinheiro você tem? R$ ");
+    fflush(stdin);
+    scanf("%f",&dinheiro);
 }
 
 /*
