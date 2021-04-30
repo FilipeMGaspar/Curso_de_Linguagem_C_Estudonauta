@@ -27,6 +27,8 @@ void main(){
     printf("Agora são %d horas \n", hora);
     if(dinheiro > 0 && dinheiro < 20){
         printf("Infelizmente não é possivel comprar o ingresso.");
+    }else{
+        printf("Você consegue comprar o ingresso.");
     }
     printf("\n--------------------------------------------------- \n");
 }
