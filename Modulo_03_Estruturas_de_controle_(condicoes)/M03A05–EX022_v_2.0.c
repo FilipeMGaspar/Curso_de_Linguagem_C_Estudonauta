@@ -1,9 +1,17 @@
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-
+    int horario_filme;
+    float dinheiro;
+    //Captura da hora do sistema
+    time_t t;
+    time(&t);
+    struct tm *data;
+    data= localtime(&t);
+    hora = data->tm_hour;
 }
 
 /*
