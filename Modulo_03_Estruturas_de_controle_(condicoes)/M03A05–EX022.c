@@ -25,6 +25,11 @@ void main(){
     scanf("%f",&dinheiro);
     printf("\n--------------------------------------------------- \n");
     printf("Agora são %d horas \n", hora);
+
+    if(dinheiro < 0){
+        dinheiro *= -1;
+    }
+
     if(hora > horario_filme || dinheiro < 20){
         printf("Infelizmente não é possivel comprar o ingresso.");
     }else{
