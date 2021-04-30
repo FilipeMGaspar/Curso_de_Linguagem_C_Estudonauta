@@ -18,7 +18,7 @@ void main(){
     printf("Qual o horário do filme? ");
     fflush(stdin);
     scanf("%d",&horario_filme);
-    system("cls");
+    system("cls"); //Limpa o terminal evitando puluição visual
     printf("\n=============== CINEMA ESTUDONAUTA =============== \n");
     printf("HORÁRIO DO FILME: %dh - PREÇO DO INGRESSO: R$ 20 \n", horario_filme);
     printf("-------------------------------------------------- \n");
@@ -28,8 +28,20 @@ void main(){
     scanf("%f",&dinheiro);
     printf("\n---------------------------------------- \n");
     printf("Agora são %d horas \n", hora);
+    if(dinheiro < 0){
+        dinheiro *= -1;
+    }
+    if(hora > horario_filme || dinheiro < 20){
+         printf("Infelizmente não é possivel comprar o ingresso.");
+    }
+    printf("\n---------------------------------------- \n");
 }
 
+/* Limpar a console
+system("clear"); (linux)
+
+system("cls"); (windows)
+*/
 /*
 <<< EX022 - Dá para ver o filme? V 2.0 >>>
 
