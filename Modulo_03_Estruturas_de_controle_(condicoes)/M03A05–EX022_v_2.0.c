@@ -11,11 +11,26 @@ void main(){
     time(&t);
     struct tm *data;
     data= localtime(&t);
-    hora = data->tm_hour;
+    int hora = data->tm_hour;
+
+    printf("<<< EX022 - Dá para ver o filme? V 2.0 >>> \n\n");
+
+    printf("Qual o horário do filme? ");
+    fflush(stdin);
+    scanf("%d",&horario_filme);
+
+
+    printf("");
+
+    printf("Quanto dinheiro você tem? ");
+    fflush(stdin);
+    scanf("%f",&dinheiro);
+    printf("\n---------------------------------------- \n");
+    printf("Agora são %d horas \n", hora);
 }
 
 /*
-<<< EX022 - Dá para ver o filme? V 1.0>>>
+<<< EX022 - Dá para ver o filme? V 2.0 >>>
 
 ========= CINEMA ESTUDONAUTA =========
 HORÁRIO DO FILME: 19h - PREÇO DO INGRESSO: R$ 20
