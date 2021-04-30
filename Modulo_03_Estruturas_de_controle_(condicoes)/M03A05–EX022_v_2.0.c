@@ -40,7 +40,7 @@ void main(){
 }
 
 /* Limpar a console
-system("clear"); (linux)
+system("clear"); (linux)  ou system("tput reset");
 
 system("cls"); (windows)
 */
