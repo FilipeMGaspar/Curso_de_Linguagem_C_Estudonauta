@@ -12,6 +12,7 @@ void main(){
     time(&t);
     struct tm *data;
     data = localtime(&t);
+    int hora = data->tm_hour;
 
     printf("<<< EX022 - Dá para ver o filme? V_1.0 >>> \n\n");
 
@@ -22,6 +23,12 @@ void main(){
     printf("\nQuanto dinheiro você tem? R$ ");
     fflush(stdin);
     scanf("%f",&dinheiro);
+    printf("\n--------------------------------------------------- \n");
+    printf("Agora são %d horas \n", hora);
+    if(dinheiro > 0 && dinheiro < 20){
+        printf("Infelizmente não é possivel comprar o ingresso.");
+    }
+    printf("\n--------------------------------------------------- \n");
 }
 
 /*
