@@ -18,9 +18,9 @@ void main(){
     printf("Qual o horário do filme? ");
     fflush(stdin);
     scanf("%d",&horario_filme);
-
-
-    printf("");
+    printf("\n=============== CINEMA ESTUDONAUTA =============== \n");
+    printf("HORÁRIO DO FILME: %dh - PREÇO DO INGRESSO: R$ 20 \n", horario_filme);
+    printf("-------------------------------------------------- \n");
 
     printf("Quanto dinheiro você tem? ");
     fflush(stdin);
