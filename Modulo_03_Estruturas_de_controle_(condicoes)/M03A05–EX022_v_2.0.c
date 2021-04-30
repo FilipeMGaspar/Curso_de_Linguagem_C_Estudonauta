@@ -26,15 +26,17 @@ void main(){
     printf("\nQuanto dinheiro você tem? ");
     fflush(stdin);
     scanf("%f",&dinheiro);
-    printf("\n---------------------------------------- \n");
+    printf("\n-------------------------------------------------------- \n");
     printf("Agora são %d horas \n", hora);
     if(dinheiro < 0){
         dinheiro *= -1;
     }
     if(hora > horario_filme || dinheiro < 20){
          printf("Infelizmente não é possivel comprar o ingresso.");
+    }else {
+        printf("Você consegue comprar o ingresso.");
     }
-    printf("\n---------------------------------------- \n");
+    printf("\n-------------------------------------------------------- \n");
 }
 
 /* Limpar a console
