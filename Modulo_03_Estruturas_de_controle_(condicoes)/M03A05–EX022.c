@@ -4,7 +4,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    int horario_filme = 11;
+    int horario_filme = 19;
     float dinheiro;
 
     //Captura da ora do sistema.
