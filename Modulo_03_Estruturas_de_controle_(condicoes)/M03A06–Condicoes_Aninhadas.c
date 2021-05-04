@@ -19,7 +19,7 @@ void main(){
         if(n1 < n2){
             printf("\nO maior é o %d \n", n2);
         }else{
-           printf("\n%d é igual a %d \n", n1, n2);
+           printf("\nO %d é IGUAL a %d \n", n1, n2);
         }
     }
 }
