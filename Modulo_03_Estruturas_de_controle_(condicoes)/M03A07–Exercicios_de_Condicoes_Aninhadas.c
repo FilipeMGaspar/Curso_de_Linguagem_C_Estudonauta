@@ -66,16 +66,21 @@ Nascendo em SP Você é PAULISTA
 
 Em que estado do Brasil Você nasceu? MG
 
-Nascendo em RJ Você é MINEIRO
+Nascendo em MG Você é MINEIRO
 
 
 Em que estado do Brasil Você nasceu? AL
 
-Nascendo em RJ Você é ALAGOANO
+Nascendo em AL Você é ALAGOANO
 
 
 Em que estado do Brasil Você nasceu? RN
 
 Nascendo em RN Você é POTIGUAR
+
+
+Em que estado do Brasil Você nasceu? TO
+
+Nascendo em TO Você é natural da sua cidade, mas ainda não sei como te chamar!
 
 */
