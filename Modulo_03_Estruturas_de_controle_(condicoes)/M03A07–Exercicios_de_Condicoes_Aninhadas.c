@@ -40,4 +40,42 @@ Em que ano você nasceu? 2010
 Sua idade atual é 11 anos.
 Seu alistamento será em 2028. Ainda faltam 7 anos.
 -------------------------------------------------
+
+
+
+Em que ano você nasceu? 2003
+
+------------------------------------
+Sua idade atual é 18 anos.
+Você completa 18 anos exectamente em 2021. Vá se alistar.
+-------------------------------------------------
 /*
+
+
+/*
+<<< EX026 -  Qual é o seu Estado? >>>
+Em que estado do Brasil Você nasceu? RJ
+
+Nascendo em RJ Você é CARIOCA
+
+
+Em que estado do Brasil Você nasceu? SP
+
+Nascendo em SP Você é PAULISTA
+
+
+Em que estado do Brasil Você nasceu? MG
+
+Nascendo em RJ Você é MINEIRO
+
+
+Em que estado do Brasil Você nasceu? AL
+
+Nascendo em RJ Você é ALAGOANO
+
+
+Em que estado do Brasil Você nasceu? RN
+
+Nascendo em RN Você é POTIGUAR
+
+*/
