@@ -14,12 +14,12 @@ void main(){
     scanf("%d",&n2);
 
     if(n1 > n2){
-        printf("O maior é o %d \n", n1);
+        printf("\nO maior é o %d \n", n1);
     }else {
         if(n1 < n2){
-            printf("O maior é o %d \n", n2);
+            printf("\nO maior é o %d \n", n2);
         }else{
-           printf("%d é igual a %d \n", n1, n2);
+           printf("\n%d é igual a %d \n", n1, n2);
         }
     }
 }
