@@ -15,11 +15,10 @@ void main(){
 
     if(n1 > n2){
         printf("\nO maior valor é o primeiro: %d \n", n1);
-    }else {
-        if(n1 < n2){
+    } else if(n1 < n2){
             printf("\nO maior valor é o segundo:  %d \n", n2);
-        }else{
+    }else{
            printf("\nO %d é IGUAL a %d \n", n1, n2);
-        }
     }
+
 }
