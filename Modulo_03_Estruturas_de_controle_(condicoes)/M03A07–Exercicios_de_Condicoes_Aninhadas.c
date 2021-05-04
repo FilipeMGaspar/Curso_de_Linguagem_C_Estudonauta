@@ -84,3 +84,22 @@ Em que estado do Brasil Você nasceu? TO
 Nascendo em TO Você é natural da sua cidade, mas ainda não sei como te chamar!
 
 */
+
+/*
+<<< EX027 -  Três valores em ordem >>>
+
+Me diga três números e eu colocarei
+eles em ordem para você.
+
+Primeiro número: 2
+Segundo número: 7
+Terceiro número: 1
+
+---------------------
+MAIOR: 7
+INTERMEDIÁRIO: 2
+MENOR: 1
+
+
+
+*/
