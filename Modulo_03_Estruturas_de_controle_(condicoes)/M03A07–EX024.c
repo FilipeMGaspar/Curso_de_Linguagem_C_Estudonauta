@@ -15,6 +15,11 @@ void main(){
     printf("Segundo número: ");
     fflush(stdin);
     scanf("%d",&num2);
+
+    printf("\nOs números em ordem são ");
+    if(num1 < num2){
+        printf("%d e %d \n",num1, num2);
+    }
 }
 
 /*
