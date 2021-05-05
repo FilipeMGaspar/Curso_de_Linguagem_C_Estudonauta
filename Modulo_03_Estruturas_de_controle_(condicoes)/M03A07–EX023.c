@@ -3,6 +3,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int num;
 
     printf("<<< EX023 - positivo ou Negativo >>> \n\n");
     printf(" Me diga um número e eu te direi se \n");
@@ -10,6 +11,8 @@ void main(){
 
     printf("Digite um número: ");
     fflush(stdin);
+    scanf("%d", &num);
+
 }
 
 /*
