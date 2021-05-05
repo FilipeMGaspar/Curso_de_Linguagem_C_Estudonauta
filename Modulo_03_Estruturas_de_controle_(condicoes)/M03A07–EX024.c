@@ -5,6 +5,8 @@ void main(){
     setlocale(LC_ALL, "Portuguese");
 
     printf("<<< EX024 - Ordem em dois números >>> \n\n");
+    printf("Me diga dois números e eu colocarei \n");
+    printf("os dois em ordem crescente. \n\n");
 }
 
 /*
