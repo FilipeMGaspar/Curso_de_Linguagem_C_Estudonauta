@@ -6,7 +6,10 @@ void main(){
 
     printf("<<< EX023 - positivo ou Negativo >>> \n\n");
     printf(" Me diga um número e eu te direi se \n");
-    printf("ele é POSITIVO, NEGATIVO ou NULO.");
+    printf("ele é POSITIVO, NEGATIVO ou NULO. \n\n");
+
+    printf("Digite um número: ");
+    fflush(stdin);
 }
 
 /*
