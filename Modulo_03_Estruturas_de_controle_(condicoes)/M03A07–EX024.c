@@ -3,6 +3,7 @@
 
 void main(){
     setlocale(LC_ALL, "Portuguese");
+    int num1, num2;
 
     printf("<<< EX024 - Ordem em dois números >>> \n\n");
     printf("Me diga dois números e eu colocarei \n");
@@ -10,9 +11,10 @@ void main(){
 
     printf("Primeiro número: ");
     fflush(stdin);
-
+    scanf("%d",&num1);
     printf("Segundo número: ");
     fflush(stdin);
+    scanf("%d",&num2);
 }
 
 /*
