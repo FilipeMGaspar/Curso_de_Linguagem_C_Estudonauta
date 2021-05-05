@@ -6,6 +6,7 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     printf("<<< EX025 - Serviço Militar V2.0 >>> \n\n");
     int ano_nascimento;
+    int idade;
 
     //Captura do ano atual
     time_t t;
@@ -18,6 +19,12 @@ void main(){
     printf("\nem que ano você nasceu? ");
     fflush(stdin);
     scanf("%d",&ano_nascimento);
+
+    printf("\n-------------------------------------------------------\n");
+    idade = ano_atual - ano_nascimento;
+    printf("A sua idade atual: %d anos \n",idade);
+
+    printf("-------------------------------------------------------\n");
 }
 
 /*
