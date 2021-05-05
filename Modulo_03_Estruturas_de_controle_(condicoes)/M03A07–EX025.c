@@ -3,7 +3,9 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    printf("<<< EX025 - Serviço Militar V2.0 >>> \n\n");
 
+    printf("Atualmente estamios no ano de ");
 }
 
 /*
