@@ -16,6 +16,8 @@ void main(){
     printf("\nO número: %d é: ",num);
     if(num < 0){
         printf("NEGATIVO \n");
+    }else if(num > 0){
+        printf("POSITIVO \n");
     }
 }
 
