@@ -22,7 +22,7 @@ void main(){
     }else if( num2 < num1){
         printf("%d e %d \n", num2, num1);
     } else {
-        printf("%d é igual ao %d \n",num1, num2);
+        printf("iguais! %d = %d \n",num1, num2);
     }
 }
 
