@@ -13,6 +13,10 @@ void main(){
     fflush(stdin);
     scanf("%d", &num);
 
+    printf("O número: %d é: ",num);
+    if(num < 0){
+        printf("NEGATIVO \n");
+    }
 }
 
 /*
