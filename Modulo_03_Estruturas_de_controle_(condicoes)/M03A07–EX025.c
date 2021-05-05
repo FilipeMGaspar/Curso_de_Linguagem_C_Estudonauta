@@ -15,7 +15,7 @@ void main(){
     data = localtime(&t);
     int ano_atual = data->tm_year + 1900;
 
-    printf("Atualmente estamios no ano de %d \n", ano_atual);
+    printf("Atualmente estamos no ano de %d \n", ano_atual);
     printf("\nem que ano você nasceu? ");
     fflush(stdin);
     scanf("%d",&ano_nascimento);
@@ -45,14 +45,12 @@ Seu alistamento foi em 1996. Já se +assaram 25 anos.
 -------------------------------------------------
 
 
-
 Em que ano você nasceu? 2010
 
 ------------------------------------
 Sua idade atual é 11 anos.
 Seu alistamento será em 2028. Ainda faltam 7 anos.
 -------------------------------------------------
-
 
 
 Em que ano você nasceu? 2003
