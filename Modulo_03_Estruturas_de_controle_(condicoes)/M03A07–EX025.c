@@ -24,7 +24,8 @@ void main(){
     idade = ano_atual - ano_nascimento;
     printf("A sua idade atual: %d anos \n",idade);
     if(idade > 18){
-        printf("O seu alistamento foi em %d ",(ano_atual - 18));
+        printf("O seu alistamento foi em %d, Já se passaram %d anos\n",(ano_atual- (idade - 18)), (ano_atual-ano_nascimento-18));
+    }else if(){
     }
     printf("-------------------------------------------------------\n");
 }
