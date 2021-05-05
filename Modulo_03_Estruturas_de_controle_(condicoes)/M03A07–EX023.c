@@ -18,6 +18,8 @@ void main(){
         printf("NEGATIVO \n");
     }else if(num > 0){
         printf("POSITIVO \n");
+    }else{
+        printf("NULO \n");
     }
 }
 
