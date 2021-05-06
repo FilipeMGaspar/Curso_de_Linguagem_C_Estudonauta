@@ -47,25 +47,6 @@ void main(){
     }
     printf("------------------------\n");
 
-
-    /*if(num1 > num2 && num2 > num3){
-        printf("MAIOR: %d \n", num1);
-        printf("INTERMÉDIO: %d \n", num2);
-        printf("MENOR: %d \n", num3);
-    }else if(num2 > num1 && num1 > num3){
-        printf("MAIOR: %d \n", num2);
-        printf("INTERMÉDIO: %d \n", num1);
-        printf("MENOR: %d \n", num3);
-    }else if(num3 > num1 && num2 > num1){
-        printf("MAIOR: %d \n", num3);//2
-        printf("INTERMÉDIO: %d \n", num2);//3
-        printf("MENOR: %d \n", num1);//1
-    }else{
-        printf("MAIOR: %d \n", num1);
-        printf("INTERMÉDIO: %d \n", num3);
-        printf("MENOR: %d \n",num2);
-    }*/
-
 }
 
 /*
