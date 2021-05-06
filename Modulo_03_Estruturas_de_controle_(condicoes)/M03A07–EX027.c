@@ -7,10 +7,14 @@ void main(){
     int num1, num2, num3;
 
     printf("Primeiro número: ");
+    fflush(stdin);
     scanf("%d", &num1);
     printf("Segundo número: ");
+    fflush(stdin);
     scanf("%d", &num2);
-
+    printf("Terceiro número: ");
+    fflush(stdin);
+    scanf("%d", &num3);
 }
 
 /*
