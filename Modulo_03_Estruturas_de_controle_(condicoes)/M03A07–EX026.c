@@ -10,8 +10,10 @@ void main(){
     fflush(stdin);
     gets(estado);
     printf("\nNascendo em %s você é ", strupr(estado));
-    if( strcmp(estado, "RJ") == 0){
+    if(strcmp(estado, "RJ") == 0){
         printf("CARIOCA \n");
+    }else if(strcmp(estado, "SP") == 0){
+        printf("PAULISTA \n");
     }
 }
 
