@@ -38,7 +38,9 @@ void main(){
         printf("INTERMÉDIO: %d \n", num3);  // num3 o intermédio
         printf("MENOR: %d \n", num2);       // num2 é o menor
 
-    }else{
+    }else if(num1 == num2 && num2 == num3){
+       printf("Não é possivel ordenar os números. Pois são IGUAIS! \n");
+    }else {
         printf("MAIOR: %d \n", num3);       // num3 é o maior
         printf("INTERMÉDIO: %d \n", num1);  // num1 o intermédio
         printf("MENOR: %d \n", num2);       // num2 é o menor
