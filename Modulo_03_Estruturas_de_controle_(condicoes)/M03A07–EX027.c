@@ -21,7 +21,10 @@ void main(){
         printf("MAIOR: %d \n", num1);
         printf("INTERMÉDIO: %d \n", num2);
         printf("MENOR: %d \n", num3);
-    }else if(){
+    }else if(num2 > num1 && num1 > num3){
+        printf("MAIOR: %d \n", num2);
+        printf("INTERMÉDIO: %d \n", num1);
+        printf("MENOR: %d \n", num3);
     }
     printf("------------------------\n");
 
