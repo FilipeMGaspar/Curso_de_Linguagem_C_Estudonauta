@@ -3,6 +3,9 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    printf("<<< EX027 -  Três valores em ordem >>> \n\n");
+    int num1, num2, num3;
+
 
 }
 
