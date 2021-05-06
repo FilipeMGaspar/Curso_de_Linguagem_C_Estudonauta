@@ -4,6 +4,8 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    printf("<<< EX026 -  Qual é o seu Estado? >>> \n\n");
+
 }
 
 /*
