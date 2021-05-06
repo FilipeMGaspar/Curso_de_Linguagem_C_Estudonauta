@@ -9,9 +9,8 @@ void main(){
     printf("Em que estado do Brasil você nasceu? ");
     fflush(stdin);
     gets(estado);
-    printf("Nascendo em %s você é \n", strupr(estado));
-    int rj = strcmp(estado, "RJ");
-    if( rj == 0){
+    printf("\nNascendo em %s você é ", strupr(estado));
+    if( strcmp(estado, "RJ") == 0){
         printf("CARIOCA \n");
     }
 }
