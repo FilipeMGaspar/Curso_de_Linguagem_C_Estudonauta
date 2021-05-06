@@ -18,6 +18,8 @@ void main(){
         printf("MINEIRO \n");
     }else if(strcmp(estado, "AL") == 0){
         printf("ALAGOANO \n");
+    }else if(strcmp(estado, "RN") == 0){
+        printf("POTIGUAR \n");
     }
 }
 
