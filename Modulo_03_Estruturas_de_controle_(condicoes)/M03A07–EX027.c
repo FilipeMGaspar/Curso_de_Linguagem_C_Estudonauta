@@ -29,6 +29,14 @@ void main(){
         printf("MAIOR: %d \n", num3);       // num3 é o maior
         printf("INTERMÉDIO: %d \n", num2);  // num2 o intermédio
         printf("MENOR: %d \n", num1);       // num1 é o menor
+    }else if(num2 > num3 && num3 > num1){
+        printf("MAIOR: %d \n", num2);       // num2 é o maior
+        printf("INTERMÉDIO: %d \n", num3);  // num3 o intermédio
+        printf("MENOR: %d \n", num1);       // num1 é o menor
+    }else{
+        printf("MAIOR: %d \n", num3);       // num3 é o maior
+        printf("INTERMÉDIO: %d \n", num1);  // num1 o intermédio
+        printf("MENOR: %d \n", num2);       // num2 é o menor
     }
     printf("------------------------\n");
 
