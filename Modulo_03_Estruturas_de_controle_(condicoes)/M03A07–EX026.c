@@ -20,6 +20,8 @@ void main(){
         printf("ALAGOANO \n");
     }else if(strcmp(estado, "RN") == 0){
         printf("POTIGUAR \n");
+    }else{
+        printf("natural da sua cidade, mas ainda não sei como te chamar! \n");
     }
 }
 
