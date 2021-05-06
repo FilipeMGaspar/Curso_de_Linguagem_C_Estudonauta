@@ -21,6 +21,7 @@ void main(){
         printf("MAIOR: %d \n", num1);
         printf("INTERMÉDIO: %d \n", num2);
         printf("MENOR: %d \n", num3);
+    }else if(){
     }
     printf("------------------------\n");
 
