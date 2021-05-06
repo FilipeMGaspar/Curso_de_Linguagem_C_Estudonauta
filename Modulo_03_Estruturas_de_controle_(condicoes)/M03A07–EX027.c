@@ -15,6 +15,13 @@ void main(){
     printf("Terceiro número: ");
     fflush(stdin);
     scanf("%d", &num3);
+
+    printf("\n------------------------\n");
+    if(num1 > num2 && num2 > num3){
+        printf("MAIOR: %d \n", num1);
+        printf("INTERMÉDIO: %d \n", num2);
+        printf("MENOR: %d \n", num3);
+    }
 }
 
 /*
