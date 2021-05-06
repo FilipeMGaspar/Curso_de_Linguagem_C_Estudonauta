@@ -29,6 +29,10 @@ void main(){
         printf("MAIOR: %d \n", num3);
         printf("INTERMÉDIO: %d \n", num2);
         printf("MENOR: %d \n", num1);
+    }else{
+        printf("MAIOR: %d \n", num1);
+        printf("INTERMÉDIO: %d \n", num3);
+        printf("MENOR: %d \n",num2);
     }
     printf("------------------------\n");
 }
