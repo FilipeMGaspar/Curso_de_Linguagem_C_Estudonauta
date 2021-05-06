@@ -6,6 +6,10 @@ void main(){
     printf("<<< EX027 -  Três valores em ordem >>> \n\n");
     int num1, num2, num3;
 
+    printf("Primeiro número: ");
+    scanf("%d", &num1);
+    printf("Segundo número: ");
+    scanf("%d", &num2);
 
 }
 
