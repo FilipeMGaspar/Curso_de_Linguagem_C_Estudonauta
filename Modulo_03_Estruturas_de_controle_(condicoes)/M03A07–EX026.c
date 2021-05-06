@@ -16,6 +16,8 @@ void main(){
         printf("PAULISTA \n");
     }else if(strcmp(estado, "MG") == 0){
         printf("MINEIRO \n");
+    }else if(strcmp(estado, "AL") == 0){
+        printf("ALAGOANO \n");
     }
 }
 
