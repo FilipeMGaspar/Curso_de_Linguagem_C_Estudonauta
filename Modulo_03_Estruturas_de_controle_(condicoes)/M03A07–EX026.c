@@ -3,8 +3,13 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-
+    char estado[2];
     printf("<<< EX026 -  Qual é o seu Estado? >>> \n\n");
+
+    printf("Em que estado do Brasil você nasceu? ");
+    fflush(stdin);
+    gets(estado);
+    printf("Nascendo em %s você é \n", strupr(estado));
 
 }
 
