@@ -10,7 +10,10 @@ void main(){
     fflush(stdin);
     gets(estado);
     printf("Nascendo em %s você é \n", strupr(estado));
-
+    int rj = strcmp(estado, "RJ");
+    if( rj == 0){
+        printf("CARIOCA \n");
+    }
 }
 
 /*
