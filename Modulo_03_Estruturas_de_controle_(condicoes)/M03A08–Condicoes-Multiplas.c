@@ -18,7 +18,7 @@ void main(){
         printf("DOIS");
         break;
     case 3:
-        printf("TRÊS")
+        printf("TRÊS");
         break;
     case 4:
         printf("QUATRO");
