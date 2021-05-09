@@ -27,4 +27,6 @@ void main(){
         printf("Outro número %d", n);
         break;
     }
+
+    printf("\n ..: ACABOU :.. \n");
 }
