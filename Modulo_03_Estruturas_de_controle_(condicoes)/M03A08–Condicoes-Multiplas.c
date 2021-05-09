@@ -12,16 +12,16 @@ void main(){
 
     switch(n){
     case 1:
-        printf("UM");
+        printf("\nUM\n");
         break;
     case 2:
-        printf("DOIS");
+        printf("\nDOIS\n");
         break;
     case 3:
-        printf("TRÊS");
+        printf("\nTRÊS\n");
         break;
     case 4:
-        printf("QUATRO");
+        printf("\nQUATRO\n");
         break;
     default:
         printf("Outro número %d", n);
