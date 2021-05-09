@@ -24,7 +24,7 @@ void main(){
         printf("\nQUATRO\n");
         break;
     default:
-        printf("Outro número %d", n);
+        printf("\nOutro número %d", n);
         break;
     }
 
