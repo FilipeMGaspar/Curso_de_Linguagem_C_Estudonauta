@@ -101,5 +101,10 @@ Digite o preço de um produto R$ 500
     4   Black Fryday [-30%]
     5   Natal [-5%]
     =====================
-    Digite a sua opção =>
+    Digite a sua opção => 2
+
+    -----------------------------------------
+    Na época de Férias Escolares, o preço do produdo vai para R$ 600,00.
+    ------------------------------------------------
+    VOLTE SEMPRE!
 */
