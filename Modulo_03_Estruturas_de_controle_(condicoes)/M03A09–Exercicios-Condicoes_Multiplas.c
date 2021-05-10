@@ -39,6 +39,8 @@ VOLTE SEMPRE!
 */
 
 
+
+
 /*
 <<< EX029 - Seu peso nos planetas v1.0 >>>
 
@@ -54,5 +56,10 @@ VOLTE SEMPRE!
         5   Saturno
         6   Urano
         ===================
-        Digite a sua opção =>
+        Digite a sua opção => 4
+
+        ----------------------------------
+        No planeta JÚPITER, seu peso seria 240.24 Kg
+        --------------------------------------
+        VOLTE SEMPRE.
 */
