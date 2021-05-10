@@ -38,10 +38,10 @@ void main(){
             printf("O resultado de %d %c %d é igual a %d \n", num1, op, num2, (num1 * num2));
             break;
         case '/':
-            printf("O resultado de %d %c %d é igual a %.2f \n", num1, op, num2, ((float)num1 / (float)num2));
+            printf("O resultado de %d %c %d é igual a %.1f \n", num1, op, num2, ((float)num1 / (float)num2));
             break;
         default:
-
+            printf("Não foi posssível fazer a operação. Tente Novamente.");
             break;
     }
     printf("\n------------------------------------------------------\n");
