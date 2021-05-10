@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int num1, num2;
+    char op;
 
     printf("<<< EX028 - Super Calculadora v1.0 >>> \n\n");
     printf("VALOR 1 = ");
@@ -21,6 +22,10 @@ void main(){
     printf("\t*\tMULTIPLICAÇÃO\n");
     printf("\t/\tDIVISÃO\n");
     printf("=============================================\n");
+    printf("\tDigite a sua opção => ");
+    fflush(stdin);
+    op = getchar(); //Capturar o caracter
+    printf("\n%c\n",op);
 
 }
 
