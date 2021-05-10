@@ -64,7 +64,7 @@ VOLTE SEMPRE!
         VOLTE SEMPRE.
 
 
-        <<< EX029 - Seu peso nos planetas v1.0 >>>
+<<< EX029 - Seu peso nos planetas v1.0 >>>
 
     Seu peso na Terra(Kg) = 91
 
@@ -85,4 +85,21 @@ VOLTE SEMPRE!
         Tente Novamente.
         --------------------------------------
         VOLTE SEMPRE.
+*/
+
+
+/*
+<<< EX030 - Preço por Época >>>
+
+Digite o preço de um produto R$ 500
+
+    ESCOLHA UMPERÍODO
+    ===================
+    1   Carnaval [+10%]
+    2   Férias Escolares [+20%]
+    3   Dia das Crianças [+5%]
+    4   Black Fryday [-30%]
+    5   Natal [-5%]
+    =====================
+    Digite a sua opção =>
 */
