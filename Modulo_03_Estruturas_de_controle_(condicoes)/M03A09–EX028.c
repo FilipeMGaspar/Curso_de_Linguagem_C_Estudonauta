@@ -17,6 +17,9 @@ void main(){
     printf("\t SELECIONE UMA OPERAÇÃO \n");
     printf("=============================================\n");
     printf("\t+\tADIÇÃO\n");
+    printf("\t-\tSUBTRAÇÃO\n");
+    printf("\t*\tMULTIPLICAÇÃO\n");
+    printf("\t/\tDIVISÃO\n");
     printf("=============================================\n");
 
 }
