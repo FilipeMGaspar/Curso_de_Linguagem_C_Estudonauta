@@ -32,16 +32,19 @@ void main(){
             printf("O resultado de %d %c %d é igual a %d \n", num1, op, num2, (num1 + num2));
             break;
         case '-':
+            printf("O resultado de %d %c %d é igual a %d \n", num1, op, num2, (num1 - num2));
             break;
         case '*':
+            printf("O resultado de %d %c %d é igual a %d \n", num1, op, num2, (num1 * num2));
             break;
         case '/':
+            printf("O resultado de %d %c %d é igual a %.2f \n", num1, op, num2, ((float)num1 / (float)num2));
             break;
         default:
 
             break;
     }
-    printf("------------------------------------------------------\n");
+    printf("\n------------------------------------------------------\n");
     printf("Obrigado por utilizar a Super Calculadora v1.0 \n\tVOLTE SEMPRE!\n");
 }
 
