@@ -8,7 +8,16 @@ void main(){
     printf("<<< EX028 - Super Calculadora v1.0 >>> \n\n");
     printf("VALOR 1 = ");
     fflush(stdin);
-    scanf("%d", num1);
+    scanf("%d", &num1);
+    printf("VALOR 2 = ");
+    fflush(stdin);
+    scanf("%d", &num2);
+
+    printf("\n");
+    printf("\t SELECIONE UMA OPERAÇÃO \n");
+    printf("=============================================\n");
+    printf("\t+\tADIÇÃO\n");
+    printf("=============================================\n");
 
 }
 
