@@ -25,8 +25,23 @@ void main(){
     printf("\tDigite a sua opção => ");
     fflush(stdin);
     op = getchar(); //Capturar o caracter
-    printf("\n%c\n",op);
 
+    printf("\n------------------------------------------------------\n");
+    switch(op){
+        case '+':
+            break;
+        case '-':
+            break;
+        case '*':
+            break;
+        case '/':
+            break;
+        default:
+
+            break;
+    }
+    printf("------------------------------------------------------\n");
+    printf("Obrigado por utilizar a Super Calculadora v1.0 \n\tVOLTE SEMPRE!");
 }
 
 /*
