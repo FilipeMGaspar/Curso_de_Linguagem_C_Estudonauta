@@ -29,6 +29,7 @@ void main(){
     printf("\n------------------------------------------------------\n");
     switch(op){
         case '+':
+            printf("O resultado de %d %c %d é igual a %d \n", num1, op, num2, (num1 + num2));
             break;
         case '-':
             break;
@@ -41,7 +42,7 @@ void main(){
             break;
     }
     printf("------------------------------------------------------\n");
-    printf("Obrigado por utilizar a Super Calculadora v1.0 \n\tVOLTE SEMPRE!");
+    printf("Obrigado por utilizar a Super Calculadora v1.0 \n\tVOLTE SEMPRE!\n");
 }
 
 /*
