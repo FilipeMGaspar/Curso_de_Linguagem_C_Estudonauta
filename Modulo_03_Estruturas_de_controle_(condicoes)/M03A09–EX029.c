@@ -11,7 +11,10 @@ void main(){
     scanf("%f", &peso);
     printf("\n");
     printf("\t ESCOLHA UM PLANETA\n");
-    printf("\t====================");
+    printf("\t====================\n");
+    printf("\t 1 \t Mercúrio \n");
+    printf("\t 2 \t Vênus \n");
+
 
 }
 
