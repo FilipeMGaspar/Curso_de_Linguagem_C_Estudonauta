@@ -3,6 +3,13 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    float peso;
+
+    printf("<<< EX029 - Seu peso nos planetas v1.0 >>> \n\n");
+    printf("Seu peso na Terra (kg): ");
+    fflush(stdin);
+    scanf("%f", &peso);
+
 
 }
 
