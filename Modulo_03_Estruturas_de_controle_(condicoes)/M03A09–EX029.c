@@ -14,8 +14,12 @@ void main(){
     printf("\t====================\n");
     printf("\t 1 \t Mercúrio \n");
     printf("\t 2 \t Vênus \n");
-
-
+    printf("\t 3 \t Terra \n");
+    printf("\t 4 \t Marte \n");
+    printf("\t 5 \t Júpiter \n");
+    printf("\t 6 \t Saturno \n");
+    printf("\t 7 \t Urano \n");
+    printf("\t 8 \t Netuno \n");
 }
 
 /*
