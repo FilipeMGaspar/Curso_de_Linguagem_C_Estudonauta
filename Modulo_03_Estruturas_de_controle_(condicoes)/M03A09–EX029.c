@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     float peso;
+    int op;
 
     printf("<<< EX029 - Seu peso nos planetas v1.0 >>> \n\n");
     printf("Seu peso na Terra (kg): ");
@@ -20,6 +21,10 @@ void main(){
     printf("\t 6 \t Saturno \n");
     printf("\t 7 \t Urano \n");
     printf("\t 8 \t Netuno \n");
+    printf("\t====================\n");
+    printf("\t Digite a sua Opção => ");
+    fflush(stdin);
+    scanf("%d", &op);
 }
 
 /*
