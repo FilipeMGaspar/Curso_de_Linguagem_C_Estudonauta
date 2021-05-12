@@ -9,7 +9,9 @@ void main(){
     printf("Seu peso na Terra (kg): ");
     fflush(stdin);
     scanf("%f", &peso);
-
+    printf("\n");
+    printf("\t ESCOLHA UM PLANETA\n");
+    printf("\t====================");
 
 }
 
