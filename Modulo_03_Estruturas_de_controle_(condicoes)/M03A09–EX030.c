@@ -12,7 +12,10 @@ void main(){
 
     printf("\n");
     printf("\t ESCOLHA UM PERÍODO \n");
-    printf("\t====================\n");
+    printf("\t==================== \n");
+    printf("\t 1\t Carnaval [ +20%% ]\n");
+    printf("\t 2\t Férias Escolares [ +5%% ]\n");
+    printf("\t==================== \n");
 }
 
 /*
