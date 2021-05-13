@@ -26,10 +26,10 @@ void main(){
     fflush(stdin);
     scanf("%d", &op);
 
-    printf("--------------------------------------------------- \n");
+    printf("\n\n------------------------------------------------------ \n");
     switch(op){
     case 1:
-        break:
+        break;
     case 2:
         break;
     case 3:
@@ -46,9 +46,10 @@ void main(){
         break;
     default:
         printf("Seu peso não pode ser calculado para outros planetas.\n");
+        printf("Tente Novamente. \n");
         break;
     }
-    printf("--------------------------------------------------- \n");
+    printf("------------------------------------------------------ \n");
     printf("VOLTE SEMPRE! \n");
 }
 
