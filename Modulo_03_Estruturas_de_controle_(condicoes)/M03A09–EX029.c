@@ -38,6 +38,7 @@ void main(){
         printf("No planeta TERRA, o seu é de %.2f Kg \n", peso);
         break;
     case 4:
+        printf("No planeta MARTE, o seu peso seria de %.2f Kg \n",(peso * 0.38));
         break;
     case 5:
         break;
