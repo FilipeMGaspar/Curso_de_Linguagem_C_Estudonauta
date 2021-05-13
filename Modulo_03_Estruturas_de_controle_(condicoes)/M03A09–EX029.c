@@ -29,12 +29,13 @@ void main(){
     printf("\n\n------------------------------------------------------ \n");
     switch(op){
     case 1:
-        printf("No Planeta MERCÚRIO, o seu peso seria de %.2f Kg \n",(peso * 0.37));
+        printf("No planeta MERCÚRIO, o seu peso seria de %.2f Kg \n",(peso * 0.37));
         break;
     case 2:
-        printf("No Planeta VÊNUS, o seu peso seria de %.2f Kg \n",(peso * 0.88));
+        printf("No planeta VÊNUS, o seu peso seria de %.2f Kg \n",(peso * 0.88));
         break;
     case 3:
+        printf("No planeta TERRA, o seu é de %.2f Kg \n", peso);
         break;
     case 4:
         break;
