@@ -27,6 +27,7 @@ void main(){
     printf("--------------------------------------------------------------- \n");
     switch(op){
         case 1:
+            printf("Na época de Carnaval, o preço do produdo vai para R$ %.2f \n",(preco+(preco*20/100)));
             break;
         case 2:
             break;
