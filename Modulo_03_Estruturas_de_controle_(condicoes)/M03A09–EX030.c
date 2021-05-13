@@ -17,7 +17,7 @@ void main(){
     printf("\t 1\t Carnaval [ +20%% ] \n");
     printf("\t 2\t Férias Escolares [ +5%% ] \n");
     printf("\t 3\t Black Fryday [ -30%% ] \n");
-    printf("\t 2\t Natal [ -5%% ] \n");
+    printf("\t 4\t Natal [ -5%% ] \n");
     printf("\t==================== \n");
     printf("Digite a sua opção => ");
     fflush(stdin);
@@ -25,7 +25,19 @@ void main(){
 
     printf("\n");
     printf("--------------------------------------------------------------- \n");
-
+    switch(op){
+        case 1:
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        default:
+            printf("Em épocas assim, Mantenha o preço do produdo em R$ %.2f \n", preco);
+            break;
+    }
     printf("--------------------------------------------------------------- \n");
 }
 
