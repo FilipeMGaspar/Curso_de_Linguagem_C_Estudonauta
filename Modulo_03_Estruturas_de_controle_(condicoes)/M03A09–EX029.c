@@ -29,6 +29,7 @@ void main(){
     printf("\n\n------------------------------------------------------ \n");
     switch(op){
     case 1:
+        printf("No Planeta Mercúrio, o seu peso seria de %.2f Kg \n",(peso * 0.37));
         break;
     case 2:
         break;
