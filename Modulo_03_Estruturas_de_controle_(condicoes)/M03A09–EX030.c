@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     float preco;
+    int op;
 
     printf("<<< EX030 - Preço por Época >>> \n\n");
     printf("Digite o preço de um produto R$ ");
@@ -13,9 +14,19 @@ void main(){
     printf("\n");
     printf("\t ESCOLHA UM PERÍODO \n");
     printf("\t==================== \n");
-    printf("\t 1\t Carnaval [ +20%% ]\n");
-    printf("\t 2\t Férias Escolares [ +5%% ]\n");
+    printf("\t 1\t Carnaval [ +20%% ] \n");
+    printf("\t 2\t Férias Escolares [ +5%% ] \n");
+    printf("\t 3\t Black Fryday [ -30%% ] \n");
+    printf("\t 2\t Natal [ -5%% ] \n");
     printf("\t==================== \n");
+    printf("Digite a sua opção => ");
+    fflush(stdin);
+    scanf("%d", &op);
+
+    printf("\n");
+    printf("--------------------------------------------------------------- \n");
+
+    printf("--------------------------------------------------------------- \n");
 }
 
 /*
