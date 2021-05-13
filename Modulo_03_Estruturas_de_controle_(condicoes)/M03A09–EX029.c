@@ -25,6 +25,31 @@ void main(){
     printf("\t Digite a sua Opção => ");
     fflush(stdin);
     scanf("%d", &op);
+
+    printf("--------------------------------------------------- \n");
+    switch(op){
+    case 1:
+        break:
+    case 2:
+        break;
+    case 3:
+        break;
+    case 4:
+        break;
+    case 5:
+        break;
+    case 6:
+        break;
+    case 7:
+        break;
+    case 8:
+        break;
+    default:
+        printf("Seu peso não pode ser calculado para outros planetas.\n");
+        break;
+    }
+    printf("--------------------------------------------------- \n");
+    printf("VOLTE SEMPRE! \n");
 }
 
 /*
