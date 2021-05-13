@@ -6,7 +6,13 @@ void main(){
     float preco;
 
     printf("<<< EX030 - Preço por Época >>> \n\n");
+    printf("Digite o preço de um produto R$ ");
+    fflush(stdin);
+    scanf("%f", &preco);
 
+    printf("\n");
+    printf("\t ESCOLHA UM PERÍODO \n");
+    printf("\t====================\n");
 }
 
 /*
