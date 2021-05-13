@@ -24,12 +24,13 @@ void main(){
     scanf("%d", &op);
 
     printf("\n");
-    printf("--------------------------------------------------------------- \n");
+    printf("------------------------------------------------------------------------ \n");
     switch(op){
         case 1:
             printf("Na época de Carnaval, o preço do produdo vai para R$ %.2f \n",(preco+(preco*20/100)));
             break;
         case 2:
+             printf("Na época de Férias Escolares, o preço do produdo vai para R$ %.2f \n",(preco+(preco*5/100)));
             break;
         case 3:
             break;
@@ -39,7 +40,7 @@ void main(){
             printf("Em épocas assim, Mantenha o preço do produdo em R$ %.2f \n", preco);
             break;
     }
-    printf("--------------------------------------------------------------- \n");
+    printf("------------------------------------------------------------------------ \n");
 }
 
 /*
