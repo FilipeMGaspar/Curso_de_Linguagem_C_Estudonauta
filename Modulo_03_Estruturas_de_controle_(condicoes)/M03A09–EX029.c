@@ -50,7 +50,7 @@ void main(){
         printf("No planeta URANO, o seu peso seria de %.2f Kg \n",(peso * 1.17));
         break;
     case 8:
-
+        printf("No planeta NETUNO, o seu peso seria de %.2f Kg \n",(peso * 1.18));
         break;
     default:
         printf("Seu peso não pode ser calculado para outros planetas.\n");
