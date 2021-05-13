@@ -36,6 +36,7 @@ void main(){
             printf("Na época de Black Fryday, o preço do produdo vai para R$ %.2f \n",(preco - (preco * 30/100)));
             break;
         case 4:
+            printf("Na época de Black Natal, o preço do produdo vai para R$ %.2f \n",(preco - (preco * 5/100)));
             break;
         default:
             printf("Em épocas assim, Mantenha o preço do produdo em R$ %.2f \n", preco);
