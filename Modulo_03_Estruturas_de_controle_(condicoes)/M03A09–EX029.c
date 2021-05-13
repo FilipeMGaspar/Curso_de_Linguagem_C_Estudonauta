@@ -44,6 +44,7 @@ void main(){
         printf("No planeta JÚPITER, o seu peso seria de %.2f Kg \n",(peso * 2.64));
         break;
     case 6:
+        printf("No planeta SATURNO, o seu peso seria de %.2f Kg \n",(peso * 1.15));
         break;
     case 7:
         break;
