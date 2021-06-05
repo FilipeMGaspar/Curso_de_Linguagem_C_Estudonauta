@@ -1,3 +1,11 @@
+#include <stdio.h>
+#include <locale.h>
+
+void main(){
+ setlocale(LC_ALL,"Portuguese");
+
+}
+
 /*
 1. Frase na tela  -
 Implemente um programa
