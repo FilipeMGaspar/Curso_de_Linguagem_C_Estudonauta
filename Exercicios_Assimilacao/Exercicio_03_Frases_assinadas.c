@@ -3,6 +3,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    printf("Frases pré feitas, assinadas: \n");
     printf("\"Isto não vai dar certo!\" \n");
     printf("\"Você nunca vai conseguir!\" \n");
     printf("\"Você vai se arrepender!\" \n");
