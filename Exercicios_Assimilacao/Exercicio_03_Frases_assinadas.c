@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <locale.h>
+
+void main(){
+    setlocale(LC_ALL,"Portuguese");
+}
+
 /*
 3. Frases assassinas -
  Faça um programa que mostre na tela algumas frases assassinas,
