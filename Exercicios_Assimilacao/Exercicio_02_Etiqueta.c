@@ -7,6 +7,7 @@ void main(){
     char nome[30];
     char nomeDaRua[50];
     int codPostal;
+    int nrTelef;
 
     printf("Digite o seu nome dompleto: ");
     fflush(stdin);
@@ -20,9 +21,13 @@ void main(){
     fflush(stdin);
     scanf("%d", &codPostal);
 
+    printf("Indique o seu telefone: ");
+    fflush(stdin);
+    scanf("%d", nrTelef);
+
     printf("\n%s ", nome);
     printf("\n%s ", nomeDaRua);
-    printf("\n%d ", codPostal);
+    printf("\n%d \t Telef: %d", codPostal, nrTelef);
 
     printf("\n");
 }
