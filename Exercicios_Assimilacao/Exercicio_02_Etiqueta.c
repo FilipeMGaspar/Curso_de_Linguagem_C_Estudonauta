@@ -23,7 +23,7 @@ void main(){
 
     printf("Indique o seu telefone: ");
     fflush(stdin);
-    scanf("%d", nrTelef);
+    scanf("%d", &nrTelef);
 
     printf("\n%s ", nome);
     printf("\n%s ", nomeDaRua);
