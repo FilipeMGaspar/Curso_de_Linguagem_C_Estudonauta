@@ -9,7 +9,7 @@ void main(){
     int codPostal;
     int nrTelef;
 
-    printf("Digite o seu nome dompleto: ");
+    printf("Digite o seu nome completo: ");
     fflush(stdin);
     gets(nome);
 
