@@ -5,11 +5,20 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     char nome[30];
+    char nomeDaRua[50];
 
     printf("Digite o seu nome dompleto: ");
+    fflush(stdin);
     gets(nome);
 
-    printf("\n %s", nome);
+    printf("Indique o nome da sua rua: ");
+    fflush(stdin);
+    gets(nomeDaRua);
+
+    printf("\n%s ", nome);
+    printf("\n%s", nomeDaRua);
+
+    printf("\n");
 }
 /*
 2. Etiqueta -
