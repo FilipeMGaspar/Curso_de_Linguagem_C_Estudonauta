@@ -22,7 +22,7 @@ void main(){
 
     printf("\n%s ", nome);
     printf("\n%s ", nomeDaRua);
-    ptintf("\n%d ", codPostal);
+    printf("\n%d ", codPostal);
 
     printf("\n");
 }
