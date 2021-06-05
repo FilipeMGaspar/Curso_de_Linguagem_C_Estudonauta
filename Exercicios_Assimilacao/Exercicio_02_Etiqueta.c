@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <locale.h>
+#include <string.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    char nome[30];
 
+    printf("Digite o seu nome dompleto: ");
+    gets(nome);
+
+    printf("\n %s", nome);
 }
 /*
 2. Etiqueta -
