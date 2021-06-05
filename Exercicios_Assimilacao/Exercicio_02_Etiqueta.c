@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <locale.h>
+
+void main(){
+    setlocale(LC_ALL,"Portuguese");
+
+}
 /*
 2. Etiqueta -
 Elabore um programa que pede:
