@@ -4,6 +4,7 @@
 void main(){
  setlocale(LC_ALL,"Portuguese");
 
+ printf("\"O primeiro programa \n a gente nunca esquece!\". \n");
 }
 
 /*
@@ -11,6 +12,6 @@ void main(){
 Implemente um programa
 que escreve na tela a frase
 
-"O primeiro programa a
-gente nunca esquece!".
+"O primeiro programa
+a gente nunca esquece!".
 */
