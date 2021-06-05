@@ -6,6 +6,7 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     char nome[30];
     char nomeDaRua[50];
+    int codPostal;
 
     printf("Digite o seu nome dompleto: ");
     fflush(stdin);
@@ -15,8 +16,13 @@ void main(){
     fflush(stdin);
     gets(nomeDaRua);
 
+    printf("Indique o código postal: ");
+    fflush(stdin);
+    scanf("%d", &codPostal);
+
     printf("\n%s ", nome);
-    printf("\n%s", nomeDaRua);
+    printf("\n%s ", nomeDaRua);
+    ptintf("\n%d ", codPostal);
 
     printf("\n");
 }
