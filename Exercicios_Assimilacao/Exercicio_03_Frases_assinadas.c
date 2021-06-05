@@ -3,6 +3,13 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    printf("\"Isto não vai dar certo!\" \n");
+    printf("\"Você nunca vai conseguir!\" \n");
+    printf("");
+    printf("");
+    printf("");
+    printf("");
+    printf("");
 }
 
 /*
