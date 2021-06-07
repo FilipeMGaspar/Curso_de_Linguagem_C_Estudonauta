@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 void main(){
+    printf("\txxxxx\n");
+
+    printf("\txxxxx\n");
 
 }
 
