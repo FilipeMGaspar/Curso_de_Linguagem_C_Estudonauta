@@ -4,8 +4,8 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("Não desista. Presista\n");
-    printf("No fim, irá compensar!");
+    printf("Não desista. Presista e insista! \n");
+    printf("No fim, irá compensar! \n");
 }
 
 /*
