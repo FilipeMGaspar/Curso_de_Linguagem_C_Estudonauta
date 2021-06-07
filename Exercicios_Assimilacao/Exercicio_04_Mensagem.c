@@ -6,7 +6,7 @@ void main(){
 
     printf("Não desista. Presista e insista! \n");
     printf("No fim, irá compensar! \n");
-    system("msg Aprender Estuda Menina!");//Enviar uma mensagem
+    system("msg Aprender Estuda Menina! Ou vais CHIMBAR!");//Enviar uma mensagem
 }
 
 /*
