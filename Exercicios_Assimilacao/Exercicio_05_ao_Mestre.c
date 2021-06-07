@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+void main(){
+
+}
+
 /*
 5. Ao mestre -
 Escreva um bilhete ao seu professor,
