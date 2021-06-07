@@ -3,6 +3,12 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+
+    printf("Ao Sr. Professor \n");
+    printf("\tEspero aprender a programar. \n");
+    printf("\tEspero que o professor esplique! \n");
+    printf("\tEstou desejo de iniciar esta disciplina! \n");
+
 }
 
 /*
