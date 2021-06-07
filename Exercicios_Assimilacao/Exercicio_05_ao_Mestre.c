@@ -8,7 +8,7 @@ void main(){
     printf("\tEspero aprender a programar. \n");
     printf("\tEspero que o professor esplique! \n");
     printf("\tEstou desejo de iniciar esta disciplina! \n");
-
+    printf("\tMuito obrigado pelo seu tempo e dedicação! \n");
 }
 
 /*
