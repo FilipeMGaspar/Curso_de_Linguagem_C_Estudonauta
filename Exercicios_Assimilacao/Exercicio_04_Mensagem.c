@@ -1,3 +1,8 @@
+#include <stdio.h>
+
+void main(){
+
+}
 /*
 4. Mensagem -
 Escreva uma mensagem para uma pessoa de que goste.
