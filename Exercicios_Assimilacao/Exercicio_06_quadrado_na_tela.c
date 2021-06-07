@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 void main(){
-    printf("\txxxxx\n");
-
-    printf("\txxxxx\n");
+    printf("\txxxxx \n");
+    printf("\tx   x \n");
+    printf("\tx   x \n");
+    printf("\tx   x \n");
+    printf("\txxxxx \n");
 
 }
 
