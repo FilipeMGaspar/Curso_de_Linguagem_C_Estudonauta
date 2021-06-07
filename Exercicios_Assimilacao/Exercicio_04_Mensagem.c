@@ -4,8 +4,9 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("Não desista. Presista e insista! \n");
-    printf("No fim, irá compensar! \n");
+    printf("Não desistas. Estuda. \n");
+    printf("Vais ver que no fim. \n");
+    printf("Vai compensar! \n");
     system("msg Aprender Estuda Menina! Ou vais CHIMBAR!");//Enviar uma mensagem
 }
 
