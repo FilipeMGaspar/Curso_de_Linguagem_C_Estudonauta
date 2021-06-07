@@ -3,6 +3,9 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+
+    printf("Não desista. Presista\n");
+    printf("No fim, irá compensar!");
 }
 
 /*
