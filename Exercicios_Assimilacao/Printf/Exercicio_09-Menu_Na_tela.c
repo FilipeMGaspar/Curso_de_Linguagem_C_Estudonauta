@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+void main(){
+
+}
+
 /*
 9. Menu -
 Elabore um programa que mostre o seguinte menu na tela:
