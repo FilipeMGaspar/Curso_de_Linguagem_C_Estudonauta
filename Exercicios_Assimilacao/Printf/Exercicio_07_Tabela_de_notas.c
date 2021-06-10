@@ -8,6 +8,8 @@ void main(){
     printf("\t========= \t====== \n ");
     printf("\t ALINE    \t 9.0 \n");
     printf("\t MÁRIO    \t DEZ \n");
+    printf("\t SÉRGIO   \t 4.5 \n");
+    printf("\t SHIRLEY  \t 7.0 \n");
 
 }
 
