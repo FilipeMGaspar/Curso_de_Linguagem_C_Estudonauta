@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 void main(){
-
+    printf("\t ----------------------------------- \n");
+    printf("\t |\tCadastro de Clientes\t   |\n");
+    printf("\t ----------------------------------- \n");
 }
 
 /*
