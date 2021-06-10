@@ -12,7 +12,7 @@ void main(){
     printf("\t\t 2 - Alterar \n");
     printf("\t\t 3 - Excluir \n");
     printf("\t\t 4 - Consultar \n");
-    printf("\n\t\tOpção: ");
+    printf("\n\t\tOpção ..: \n");
 }
 
 /*
