@@ -3,6 +3,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int opc;
 
     printf("\t ----------------------------------- \n");
     printf("\t |\tCadastro de Clientes\t   |\n");
@@ -12,7 +13,9 @@ void main(){
     printf("\t\t 2 - Alterar \n");
     printf("\t\t 3 - Excluir \n");
     printf("\t\t 4 - Consultar \n");
-    printf("\n\t\tOpção ..: \n");
+    printf("\n\t\tOpção ..: ");
+    fflush(stdin);
+    scanf("%d", &opc);
 }
 
 /*
