@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 void main(){
+    printf("\t CCCCC \n");
+    printf("\t C \n");
+    printf("\t C \n");
+    printf("\t CCCCC \n");
 }
 
 /*
