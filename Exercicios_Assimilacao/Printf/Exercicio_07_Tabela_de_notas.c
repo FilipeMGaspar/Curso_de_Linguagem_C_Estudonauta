@@ -4,8 +4,11 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    printf("  ALUNO(A) \t NOTA \n");
-    printf(" ========= \t====== \n ");
+    printf("\t ALUNO(A) \t NOTA \n");
+    printf("\t========= \t====== \n ");
+    printf("\t ALINE    \t 9.0 \n");
+    printf("\t MÁRIO    \t DEZ \n");
+
 }
 
 /*
