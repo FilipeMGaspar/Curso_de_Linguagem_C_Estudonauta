@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+void main(){
+
+}
+
 /*
 7. Tabela de notas
 Escreva um programa que produza a seguinte saída na tela:
