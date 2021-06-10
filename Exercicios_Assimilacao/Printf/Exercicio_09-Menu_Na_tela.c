@@ -4,6 +4,8 @@ void main(){
     printf("\t ----------------------------------- \n");
     printf("\t |\tCadastro de Clientes\t   |\n");
     printf("\t ----------------------------------- \n");
+    printf("\t\t 0 - Fim \n");
+    printf("\t\t 1 - Incluir \n");
 }
 
 /*
