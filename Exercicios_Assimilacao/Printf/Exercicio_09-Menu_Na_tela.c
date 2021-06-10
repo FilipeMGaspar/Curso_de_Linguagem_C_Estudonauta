@@ -1,11 +1,18 @@
 #include <stdio.h>
+#include <locale.h>
 
 void main(){
+    setlocale(LC_ALL,"Portuguese");
+
     printf("\t ----------------------------------- \n");
     printf("\t |\tCadastro de Clientes\t   |\n");
     printf("\t ----------------------------------- \n");
     printf("\t\t 0 - Fim \n");
     printf("\t\t 1 - Incluir \n");
+    printf("\t\t 2 - Alterar \n");
+    printf("\t\t 3 - Excluir \n");
+    printf("\t\t 4 - Consultar \n");
+    printf("\n\t\tOpção: ");
 }
 
 /*
