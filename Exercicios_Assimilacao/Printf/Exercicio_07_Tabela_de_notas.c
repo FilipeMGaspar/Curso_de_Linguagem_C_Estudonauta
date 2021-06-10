@@ -3,6 +3,8 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+
+    printf("ALUNO(A) \t NOTA \n");
 }
 
 /*
