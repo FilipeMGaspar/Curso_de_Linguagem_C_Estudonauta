@@ -1,3 +1,8 @@
+#include <stdio.h>
+
+void main(){
+}
+
 /*
 8. Letra grande -
 Elabore um programa para produzir na tela a letra C,
