@@ -1,3 +1,10 @@
+#include <stdio.h>
+
+void main(){
+    printf("XXXXXXXXXXXXXXX \n");
+    printf("      xx");
+}
+
 /*
 10. Pinheiro  -
 Implemente um programa que desenhe um "pinheiro" na tela, similar ao abaixo.
