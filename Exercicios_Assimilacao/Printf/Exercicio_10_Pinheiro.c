@@ -2,17 +2,17 @@
 
 void main(){
     printf("\n");
-    printf("       X \n");
-    printf("      XXX \n");
-    printf("     XXXXX \n");
-    printf("    XXXXXXX \n");
-    printf("   XXXXXXXXX \n");
-    printf("  XXXXXXXXXXX \n");
-    printf(" XXXXXXXXXXXXX \n");
-    printf("XXXXXXXXXXXXXXX \n");
-    printf("      xx \n");
-    printf("      xx \n");
-    printf("     xxxx \n");
+    printf("\t       X \n");
+    printf("\t      XXX \n");
+    printf("\t     XXXXX \n");
+    printf("\t    XXXXXXX \n");
+    printf("\t   XXXXXXXXX \n");
+    printf("\t  XXXXXXXXXXX \n");
+    printf("\t XXXXXXXXXXXXX \n");
+    printf("\tXXXXXXXXXXXXXXX \n");
+    printf("\t      xx \n");
+    printf("\t      xx \n");
+    printf("\t     xxxx \n");
 
 }
 
