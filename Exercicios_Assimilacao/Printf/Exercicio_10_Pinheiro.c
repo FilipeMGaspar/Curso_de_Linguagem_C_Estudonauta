@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void main(){
-
+    printf("\n");
+    printf("       X \n");
     printf("      XXX \n");
     printf("     XXXXX \n");
     printf("    XXXXXXX \n");
