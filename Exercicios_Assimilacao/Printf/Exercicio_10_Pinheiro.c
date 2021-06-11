@@ -2,7 +2,10 @@
 
 void main(){
     printf("XXXXXXXXXXXXXXX \n");
-    printf("      xx");
+    printf("      xx \n");
+    printf("      xx \n");
+    printf("     xxxx \n");
+
 }
 
 /*
