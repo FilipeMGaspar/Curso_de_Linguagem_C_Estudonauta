@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void main(){
+    printf("  XXXXXXXXXXX \n");
     printf(" XXXXXXXXXXXXX \n");
     printf("XXXXXXXXXXXXXXX \n");
     printf("      xx \n");
