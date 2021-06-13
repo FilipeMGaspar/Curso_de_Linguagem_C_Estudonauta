@@ -4,6 +4,11 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    int num;
+
+    printf("Digite um valor inteiro: ");
+    fflush(stdin);
+    scanf("%d", &num);
 }
 
 /*
