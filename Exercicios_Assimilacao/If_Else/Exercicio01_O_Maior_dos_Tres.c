@@ -11,6 +11,9 @@ void main(){
     printf("insira o segundo valor: ");
     fflush("stdin");
     scanf("%d", num2);
+    printf("Insira o terceiro valor: ");
+    fflush(stdin);
+    scanf("%d", num3);
 }
 
 /*
