@@ -23,7 +23,8 @@ void main(){
         maior = num2;
         menor = num3;
     }else if(num3 > num2 && num2 > num1){
-
+        maior = num3;
+        menor = num1;
     }
 
     printf("\nMaior: %d \n", maior);
