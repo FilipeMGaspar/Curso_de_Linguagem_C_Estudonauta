@@ -28,6 +28,12 @@ void main(){
     }else if(num2 > num3 && num3 > num1){
         maior = num2;
         menor = num1;
+    }else if(num1 > num3 && num3 > num2){
+        maior = num1;
+        menor = num2;
+    }else if(num3 > num1 && num1 > num2){
+        maior = num3;
+        menor = num2;
     }
 
     printf("\nMaior: %d \n", maior);
