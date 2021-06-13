@@ -9,7 +9,7 @@ void main(){
     fflush(stdin);
     scanf("%d", &num1);
     printf("Insira o segundo valor: ");
-    fflush("stdin");
+    fflush(stdin);
     scanf("%d", &num2);
     printf("Insira o terceiro valor: ");
     fflush(stdin);
