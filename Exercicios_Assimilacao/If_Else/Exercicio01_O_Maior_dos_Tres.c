@@ -8,7 +8,7 @@ void main(){
     printf("Insira o primeiro valor: ");
     fflush(stdin);
     scanf("%d", num1);
-    printf("insira o segundo valor: ");
+    printf("Insira o segundo valor: ");
     fflush("stdin");
     scanf("%d", num2);
     printf("Insira o terceiro valor: ");
