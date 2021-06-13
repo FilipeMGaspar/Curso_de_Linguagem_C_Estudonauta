@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int num1, num2, num3;
+    int maior, menor;
 
     printf("Insira o primeiro valor: ");
     fflush(stdin);
@@ -14,6 +15,14 @@ void main(){
     printf("Insira o terceiro valor: ");
     fflush(stdin);
     scanf("%d", &num3);
+
+    if(num1 > num2 && num2> num3){
+       maior = num1;
+       menor = num3;
+    }
+
+    printf("\nMaior: %d \n", maior);
+    printf("Menor: %d \n", menor);
 }
 
 /*
