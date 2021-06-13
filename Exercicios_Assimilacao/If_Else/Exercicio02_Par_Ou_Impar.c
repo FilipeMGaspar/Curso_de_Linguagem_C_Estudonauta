@@ -11,10 +11,10 @@ void main(){
     scanf("%d", &num);
 
     printf("\nO número %d é: ", num);
-    if(num%2 == 2){
-        printf("PAR!");
+    if(num%2 == 0){
+        printf("PAR! \n");
     }else{
-        printf("ÍMPAR");
+        printf("ÍMPAR! \n");
     }
 }
 
