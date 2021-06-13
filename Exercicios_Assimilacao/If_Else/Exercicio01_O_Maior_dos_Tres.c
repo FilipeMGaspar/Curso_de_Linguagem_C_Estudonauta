@@ -7,13 +7,13 @@ void main(){
 
     printf("Insira o primeiro valor: ");
     fflush(stdin);
-    scanf("%d", num1);
+    scanf("%d", &num1);
     printf("Insira o segundo valor: ");
     fflush("stdin");
-    scanf("%d", num2);
+    scanf("%d", &num2);
     printf("Insira o terceiro valor: ");
     fflush(stdin);
-    scanf("%d", num3);
+    scanf("%d", &num3);
 }
 
 /*
