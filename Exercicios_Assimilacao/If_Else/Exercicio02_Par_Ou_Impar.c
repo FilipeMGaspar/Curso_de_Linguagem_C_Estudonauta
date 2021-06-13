@@ -9,6 +9,9 @@ void main(){
     printf("Digite um valor inteiro: ");
     fflush(stdin);
     scanf("%d", &num);
+
+    printf("\nO número %d é: ", num);
+
 }
 
 /*
