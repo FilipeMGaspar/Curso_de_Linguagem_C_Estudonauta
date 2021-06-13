@@ -1,8 +1,13 @@
 #include <stdio.h>
+#include <locale.h>
 
 void main(){
+    setlocale(LC_ALL,"Portuguese");
     int num1, num2, num3;
 
+    printf("Insira o primeiro valor: ");
+    fflush(stdin);
+    scanf("%d", num1);
 }
 
 /*
