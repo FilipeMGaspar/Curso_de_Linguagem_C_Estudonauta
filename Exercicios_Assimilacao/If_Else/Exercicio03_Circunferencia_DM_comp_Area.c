@@ -10,7 +10,8 @@ void main(){
     fflush(stdin);
     scanf("%f",&raio);
 
-    printf("");
+    printf("\nUma circunferência de raio: %.2f cm tem de:\n", raio);
+    printf("Diâmetro: %.2f " , (2 * raio));
 }
 
 /*
