@@ -9,6 +9,8 @@ void main(){
     printf("Raio da circunferência: ");
     fflush(stdin);
     scanf("%f",&raio);
+
+    printf("");
 }
 
 /*
