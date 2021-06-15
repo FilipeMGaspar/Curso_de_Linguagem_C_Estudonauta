@@ -4,6 +4,11 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
+    double raio;
+
+    printf("Raio da circunferência: ");
+    fflush(stdin);
+    scanf("%f",&raio);
 }
 
 /*
