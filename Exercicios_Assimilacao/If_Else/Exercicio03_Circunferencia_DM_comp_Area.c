@@ -4,14 +4,17 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    double raio;
+    float raio;
+    float diametro;
 
     printf("Raio da circunferência: ");
     fflush(stdin);
     scanf("%f",&raio);
 
     printf("\nUma circunferência de raio: %.2f cm tem de:\n", raio);
-    printf("Diâmetro: %.2f " , (2 * raio));
+    diametro = 2.0 * raio;
+    printf("Diâmetro: %.2f ", diametro);
+
 }
 
 /*
