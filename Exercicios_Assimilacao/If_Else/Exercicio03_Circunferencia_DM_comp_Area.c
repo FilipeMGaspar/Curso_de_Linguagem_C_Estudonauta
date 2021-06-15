@@ -13,8 +13,8 @@ void main(){
 
     printf("\nUma circunferência de raio: %.2f cm tem de:\n", raio);
     diametro = 2.0 * raio;
-    printf("  Diâmetro: %.2f \n", diametro);
-    printf("  Comprimento: %.2f \n", (2*3.14*raio));
+    printf("  Diâmetro: %.2f cm\n", diametro);
+    printf("  Comprimento: %.2f cm\n", (2*3.14*raio));
 
 }
 
