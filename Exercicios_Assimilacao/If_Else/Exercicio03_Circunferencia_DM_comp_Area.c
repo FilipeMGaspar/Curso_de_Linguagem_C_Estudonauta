@@ -15,7 +15,7 @@ void main(){
     diametro = 2.0 * raio;
     printf("  Diâmetro: %.2f cm\n", diametro);
     printf("  Comprimento: %.2f cm\n", (2*3.14*raio));
-
+    printf("  Área: %.2f \n", (3.14*(raio*raio)));
 }
 
 /*
