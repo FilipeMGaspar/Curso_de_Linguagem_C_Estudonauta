@@ -26,6 +26,7 @@ void main(){
         printf("  Ainda não pode dar sangue \n");
         printf(" Para dar sangue deverá ter entre 18 e 67 Anos \n");
     }
+    printf("DÊ Sangue! Salve Vidas! ");
 }
 
 /*
