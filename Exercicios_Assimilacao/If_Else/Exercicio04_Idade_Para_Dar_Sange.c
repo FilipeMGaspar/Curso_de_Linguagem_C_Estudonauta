@@ -9,13 +9,16 @@ void main(){
     time(&t);
     struct tm *data;// tm nome do struct data ponteiro para tm
     data = localtime(&t);
-    int ano atual = data->tm_year + 1900;//Ano atual que inicial em 1900
+    int anoAtual = data->tm_year + 1900;//Ano atual que inicial em 1900
 
     int anoNascimento, idade;
 
     printf("Indique o seu ano de nascimento: ");
     fflush(stdin);
     scanf("%d",&anoNascimento);
+    idade = anoAtual - anoNascimento;
+
+    printf("\nVocê tem %d anos \n", idade);
 }
 
 /*
