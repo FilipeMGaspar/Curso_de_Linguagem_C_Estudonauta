@@ -1,3 +1,8 @@
+#include <stdio.h>
+
+void main(){
+}
+
 /*
 4. Salve vidas dê sangue
 Para doar sangue é necessário ter entre 18 e 67 anos.
