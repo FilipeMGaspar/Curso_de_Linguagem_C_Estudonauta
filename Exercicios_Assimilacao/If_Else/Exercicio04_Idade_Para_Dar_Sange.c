@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    time
+    int ano atual;
+
+    int anoNascimento;
+
 
 }
 
