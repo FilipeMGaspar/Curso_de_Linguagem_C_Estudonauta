@@ -23,7 +23,8 @@ void main(){
     if(idade > 18 && idade < 67){
         printf("  Pode dar Sangue!\n");
     }else{
-        printf("");
+        printf("  Ainda não pode dar sangue \n");
+        printf(" Para dar sangue deverá ter entre 18 e 67 Anos \n");
     }
 }
 
