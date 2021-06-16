@@ -4,8 +4,12 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    time
-    int ano atual;
+    //Captura do ano atual
+    time_t t;
+    time(&t);
+    struct tm *data;// tm nome do struct data ponteiro para tm
+    data = localtime(&t);
+    int ano atual = data->tm_year + 1900;//Ano atual que inicial em 1900
 
     int anoNascimento;
 
