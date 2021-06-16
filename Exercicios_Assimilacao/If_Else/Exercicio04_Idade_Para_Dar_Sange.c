@@ -16,9 +16,13 @@ void main(){
     printf("Indique o seu ano de nascimento: ");
     fflush(stdin);
     scanf("%d",&anoNascimento);
+
     idade = anoAtual - anoNascimento;
 
     printf("\nVocê tem %d anos \n", idade);
+    if(idade > 18 && idade < 67){
+        printf("  Pode dar Sangue!\n");
+    }
 }
 
 /*
