@@ -11,9 +11,11 @@ void main(){
     data = localtime(&t);
     int ano atual = data->tm_year + 1900;//Ano atual que inicial em 1900
 
-    int anoNascimento;
+    int anoNascimento, idade;
 
-
+    printf("Indique o seu ano de nascimento: ");
+    fflush(stdin);
+    scanf("%d",&anoNascimento);
 }
 
 /*
