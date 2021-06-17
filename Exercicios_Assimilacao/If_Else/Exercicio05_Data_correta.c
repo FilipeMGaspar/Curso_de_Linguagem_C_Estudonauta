@@ -26,6 +26,9 @@ void main(){
     fflush(stdin);
     scanf("%d",&anoAniv);
 
+    if(diaAniv < 1 || diaAniv > 31){
+        printf("%d", diaAniv," não é válido! indique entre 1 e 31");
+    }
 }
 
 
