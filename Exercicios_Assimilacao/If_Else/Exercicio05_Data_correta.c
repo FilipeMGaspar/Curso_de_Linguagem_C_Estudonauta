@@ -16,15 +16,16 @@ void main(){
     int ano = data->tm_year + 1900;
 
     printf("\tData Atual: %d - %d - %d \n\n",dia, mes, ano);
-    printf("Indique o Dia [1 - 31] em que nasceu: \n");
+    printf("Indique o Dia [1 - 31] em que nasceu: ");
     fflush(stdin);
     scanf("%d",&diaAniv);
-    printf("Indique o Mês [1 - 12] em que nasceu: \n");
+    printf("Indique o Mês [1 - 12] em que nasceu: ");
     fflush(stdin);
     scanf("%d", &mesAniv);
-    printf("Indique o Ano [%d - %d] \n", (ano -110) ,ano);
+    printf("Indique o Ano [%d - %d] em que nasceu:", (ano -110) ,ano);
     fflush(stdin);
     scanf("%d",&anoAniv);
+
 }
 
 
