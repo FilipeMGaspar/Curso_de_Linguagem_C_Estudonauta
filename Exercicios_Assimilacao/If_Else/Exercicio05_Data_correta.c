@@ -7,13 +7,13 @@ void main(){
 
     time_t t;
     time(&t);
-    struct tm *data;
-    localtime(&t);
+    struct tm *data;// tm nome do struct data ponteiro para tm
+    data = localtime(&t);
 
-    int dia=data->tm_mon;
-    int mes;
+    int dia;
+    int mes = =data->tm_mon +1;;
     int ano;
-    printf("%d /n",dia);
+    printf("%d \n",mes);
 }
 
 /*
