@@ -4,7 +4,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
-    int diaAniv, mesAniv, AnoAniv;
+    int diaAniv, mesAniv, anoAniv;
 
     //Captura da data do sistema
     time_t t;
@@ -23,7 +23,8 @@ void main(){
     fflush(stdin);
     scanf("%d", &mesAniv);
     printf("Indique o Ano [%d - %d] \n", (ano -110) ,ano);
-
+    fflush(stdin);
+    scanf("%d",&anoAniv);
 }
 
 
