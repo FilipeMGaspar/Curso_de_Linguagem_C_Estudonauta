@@ -27,8 +27,9 @@ void main(){
     scanf("%d",&anoAniv);
 
     if(diaAniv < 1 || diaAniv > 31){
-        printf("O dia \" %d \"", diaAniv );
-        printf(" não é válido! indique entre 1 e 31");
+        printf("\nO dia \" %d \"", diaAniv );
+        printf(" não é válido!\n O mês inicia sempre a dia 1  \n");
+
     }
 }
 
