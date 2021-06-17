@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 void main(){
+    int dia;
+    int mes;
+    int ano;
 }
 
 /*
