@@ -1,3 +1,8 @@
+#include <stdio.h>
+
+void main(){
+}
+
 /*
 5. Data Correcta
 Escreva um programa
