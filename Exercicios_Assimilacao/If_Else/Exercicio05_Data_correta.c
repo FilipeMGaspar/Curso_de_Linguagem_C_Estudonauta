@@ -1,13 +1,19 @@
 #include <stdio.h>
 #include <locale.h>
+#include <time.h>
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
 
-    int dia;
+    time_t t;
+    time(&t);
+    struct tm *data;
+    localtime(&t);
+
+    int dia=data->tm_mon;
     int mes;
     int ano;
-
+    printf("%d /n",dia);
 }
 
 /*
