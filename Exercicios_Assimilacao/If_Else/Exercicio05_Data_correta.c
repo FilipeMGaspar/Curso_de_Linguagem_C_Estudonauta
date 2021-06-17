@@ -4,6 +4,7 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int diaAniv, mesAniv, AnoAniv;
 
     //Captura da data do sistema
     time_t t;
@@ -17,7 +18,9 @@ void main(){
     printf("\tData Atual: %d - %d - %d \n\n",dia, mes, ano);
     printf("Indique o Dia [1 - 31] em que nasceu: \n");
     fflush(stdin);
+    scanf("%d",&diaAniv);
     printf("Indique o Mês [1 - 12] em que nasceu: \n");
+    fflush(stdin);
     printf("Indique o Ano [%d - %d] \n", (ano -110) ,ano);
 }
 
