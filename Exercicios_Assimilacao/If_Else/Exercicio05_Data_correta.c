@@ -14,11 +14,14 @@ void main(){
     int mes = data->tm_mon +1;;
     int ano = data->tm_year + 1900;
 
-    printf("Indique o Dia [1 - 31] em que nasceu: ");
-    printf("Indique o Mês [1 - 12] em que nasceu: ")
-    printf("Indique o Ano [%d - %d ] ", (ano -120) ,ano);
-    printf("%d - %d - %d \n",dia, mes, ano);
+    printf("\tData Atual: %d - %d - %d \n\n",dia, mes, ano);
+    printf("Indique o Dia [1 - 31] em que nasceu: \n");
+    printf("Indique o Mês [1 - 12] em que nasceu: \n");
+    printf("Indique o Ano [%d - %d] \n", (ano -110) ,ano);
 }
+
+
+
 
 /*
 5. Data Correcta
