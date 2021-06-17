@@ -21,6 +21,7 @@ void main(){
     scanf("%d",&diaAniv);
     printf("Indique o Mês [1 - 12] em que nasceu: \n");
     fflush(stdin);
+    scanf("%d", &mesAniv);
     printf("Indique o Ano [%d - %d] \n", (ano -110) ,ano);
 }
 
