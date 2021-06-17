@@ -28,7 +28,7 @@ void main(){
 
     if(diaAniv < 1 || diaAniv > 31){
         printf("\nO dia \" %d \"", diaAniv );
-        printf(" não é válido!\n O mês inicia sempre a dia 1  \n");
+        printf(" não é válido!\n O mês inicia sempre a dia 1 e tem no máximo 31 dias! \n");
 
     }
 }
