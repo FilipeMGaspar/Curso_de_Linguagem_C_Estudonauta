@@ -41,7 +41,7 @@ void main(){
     }
 
     switch (mesAniv){
-        case 1:
+        case 1 2:
             diasMes = 31;
             break;
         default:
