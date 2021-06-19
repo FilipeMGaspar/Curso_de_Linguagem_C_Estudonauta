@@ -26,6 +26,7 @@ void main(){
     fflush(stdin);
     scanf("%d",&anoAniv);
 
+    printf("\n A data %d/%d/%d \n", diaAniv, mesAniv, anoAniv);
     if(anoAniv < (ano - 120)){
         printf("\n[ ERRO 365] Ano Inválido! \n");
         printf("É Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
