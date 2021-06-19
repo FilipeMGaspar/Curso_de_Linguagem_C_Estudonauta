@@ -5,6 +5,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int diaAniv, mesAniv, anoAniv;
+    int diasMes;
 
     //Captura da data do sistema
     time_t t;
@@ -40,8 +41,8 @@ void main(){
     }
 
     switch (mesAniv){
-    case 1: 3: 5: 7: 8: 10: 12:
-        int diasMes = 31;
+    case 1:
+        diasMes = 31;
         break;
     }
 
