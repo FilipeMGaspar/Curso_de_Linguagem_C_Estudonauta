@@ -32,11 +32,11 @@ void main(){
     if(anoAniv < (ano - 120)){
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
         printf("     ..: É Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
-        printf(" Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+        //printf(" Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else if(anoAniv > ano){
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
         printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
-        printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+        //printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else{
         anoValido = 1;
     }
@@ -75,7 +75,7 @@ void main(){
         default:
             printf("\n  ..: [ ERRO M012] Mês Desconhecido! \n");
             printf("     ..: O mês \" %d \" não existe!\n", mesAniv );
-            printf(" ** Por favor indique entre 1 e 12");
+            //printf(" ** Por favor indique entre 1 e 12");
             diasMes = 31;
             break;
     }
@@ -83,8 +83,7 @@ void main(){
     if(diaAniv < 1 || diaAniv > diasMes){
         printf("\n  ..: [ ERRO D031] Dia Inexistente! \n");
         printf("     ..: O dia \" %d \" não é válido!\n", diaAniv );
-        printf(" ** O mês inicia sempre a dia 1 e tem no máximo %d dias! \n", diasMes);
-
+        //printf(" ** O mês inicia sempre a dia 1 e tem no máximo %d dias! \n", diasMes);
     }else{
         diaValido = 1;
     }
