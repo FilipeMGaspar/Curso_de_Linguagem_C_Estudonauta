@@ -74,6 +74,8 @@ void main(){
             break;
         default:
             printf("\n  ..: [ ERRO M012] Mês Desconhecido! \n");
+            printf("     ..: O mês \" %d \" não existe!\n", mesAniv );
+            printf(" ** Por favor indique entre 1 e 12");
             diasMes = 31;
             break;
     }
