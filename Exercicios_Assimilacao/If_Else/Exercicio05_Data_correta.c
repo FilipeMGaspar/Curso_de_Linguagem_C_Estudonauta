@@ -41,9 +41,12 @@ void main(){
     }
 
     switch (mesAniv){
-    case 1:
-        diasMes = 31;
-        break;
+        case 1:
+            diasMes = 31;
+            break;
+        default:
+            diasMes = 31;
+            break;
     }
 
     if(diaAniv < 1 || diaAniv > 31){
