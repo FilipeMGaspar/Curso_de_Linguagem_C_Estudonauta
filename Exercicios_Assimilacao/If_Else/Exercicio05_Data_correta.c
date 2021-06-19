@@ -22,7 +22,7 @@ void main(){
     printf("Indique o Mês [1 - 12] em que nasceu: ");
     fflush(stdin);
     scanf("%d", &mesAniv);
-    printf("Indique o Ano [%d - %d] em que nasceu:", (ano -120) ,ano);
+    printf("Indique o Ano [%d - %d] em que nasceu: ", (ano -120) ,ano);
     fflush(stdin);
     scanf("%d",&anoAniv);
 
@@ -30,7 +30,8 @@ void main(){
         printf("\nÉ Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
         printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else if(anoAniv > ano){
-        printf("\nPara o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
+        printf("\n [ ERRO ] Ano Inválido!");
+        printf("Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
         printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }
 
