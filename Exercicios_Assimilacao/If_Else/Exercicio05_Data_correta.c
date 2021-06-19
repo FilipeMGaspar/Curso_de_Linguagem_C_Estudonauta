@@ -6,7 +6,7 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     int diaAniv, mesAniv, anoAniv;
     int diasMes;
-    int anoValido;
+    int anoValido, diaValido, mesValido;
 
     //Captura da data do sistema
     time_t t;
@@ -41,7 +41,6 @@ void main(){
         printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else{
         anoValido = 1;
-        printf("Ano válido!");
     }
 
     switch (mesAniv){
@@ -53,23 +52,30 @@ void main(){
         case 10:
         case 12:
             diasMes = 31;
+            mesValido = 1;
             break;
         case 4:
         case 6:
         case 9:
         case 11:
             diasMes = 31;
+            mesValido = 1;
             break;
         case 2:
             if (anoValido == 1){
                 if(anoAniv % 4 == 0){
                     diasMes = 29;
+                    mesValido = 1;
+                }else{
+                    diasMes = 28;
+                    mesValido = 1;
                 }
             }else{
-                diasMes = 28;
+                diasMes = 31;
             }
             break;
         default:
+            printf("\n  ..: [ ERRO M012] Mês Desconhecido! \n");
             diasMes = 31;
             break;
     }
@@ -79,6 +85,12 @@ void main(){
         printf("     ..: O dia \" %d \" não é válido!\n", diaAniv );
         printf(" ** O mês inicia sempre a dia 1 e tem no máximo %d dias! \n", diasMes);
 
+    }else{
+        diaValido = 1;
+    }
+
+    if(anoValido == 1 && mesValido == 1 && diaValido == 1){
+        printf("\n ..: A data apresentada é VÁLIDA! :.. \n");
     }
 }
 
