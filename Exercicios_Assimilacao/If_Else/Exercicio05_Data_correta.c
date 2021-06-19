@@ -22,9 +22,13 @@ void main(){
     printf("Indique o Mês [1 - 12] em que nasceu: ");
     fflush(stdin);
     scanf("%d", &mesAniv);
-    printf("Indique o Ano [%d - %d] em que nasceu:", (ano -110) ,ano);
+    printf("Indique o Ano [%d - %d] em que nasceu:", (ano -120) ,ano);
     fflush(stdin);
     scanf("%d",&anoAniv);
+
+    if(anoAniv < (ano - 120)){
+        printf("É Muito pouco provavel que você tenha %d anos",(ano - anoAniv));
+    }
 
     if(diaAniv < 1 || diaAniv > 31){
         printf("\nO dia \" %d \"", diaAniv );
