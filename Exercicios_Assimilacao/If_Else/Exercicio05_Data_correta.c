@@ -26,22 +26,22 @@ void main(){
     fflush(stdin);
     scanf("%d",&anoAniv);
 
-    printf("\n A data %d/%d/%d \n", diaAniv, mesAniv, anoAniv);
+    printf("\nA data %d/%d/%d \n", diaAniv, mesAniv, anoAniv);
     if(anoAniv < (ano - 120)){
-        printf("Apresenta erros: ");
-        printf("\n[ ERRO 365] Ano Inválido! \n");
-        printf("É Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
-        printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+        printf(" Apresenta erros: ");
+        printf("\n  ..: [ ERRO 365] Ano Inválido! \n");
+        printf("     ..: É Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
+        printf(" Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else if(anoAniv > ano){
         printf("Apresenta erros: ");
-        printf("\n[ ERRO 365] Ano Inválido! \n");
-        printf("Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
+        printf("\n  ..: [ ERRO 365] Ano Inválido! \n");
+        printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
         printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }
 
     if(diaAniv < 1 || diaAniv > 31){
-        printf("\n[ ERRO 12] Dia Inexistente! \n");
-        printf("O dia \" %d \"", diaAniv );
+        printf("\n  ..: [ ERRO 12] Dia Inexistente! \n");
+        printf("     ..: O dia \" %d \"", diaAniv );
         printf(" não é válido!\n O mês inicia sempre a dia 1 e tem no máximo 31 dias! \n");
 
     }
