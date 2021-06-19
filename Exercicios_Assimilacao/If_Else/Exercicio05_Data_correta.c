@@ -36,13 +36,13 @@ void main(){
         printf("Apresenta erros: ");
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
         printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
-        printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+        printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }
 
     if(diaAniv < 1 || diaAniv > 31){
         printf("\n  ..: [ ERRO D031] Dia Inexistente! \n");
-        printf("     ..: O dia \" %d \"", diaAniv );
-        printf(" não é válido!\nO mês inicia sempre a dia 1 e tem no máximo 31 dias! \n");
+        printf("     ..: O dia \" %d \" não é válido!\n", diaAniv );
+        printf(" ** O mês inicia sempre a dia 1 e tem no máximo 31 dias! \n");
 
     }
 }
