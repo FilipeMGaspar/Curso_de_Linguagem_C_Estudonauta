@@ -6,7 +6,7 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     int diaAniv, mesAniv, anoAniv;
     int diasMes;
-    bool anoValido;
+    int anoValido;
 
     //Captura da data do sistema
     time_t t;
@@ -40,7 +40,7 @@ void main(){
         printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
         printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else{
-        anoValido = true;
+        anoValido = 1;
         printf("Ano válido!");
     }
 
@@ -61,7 +61,7 @@ void main(){
             diasMes = 31;
             break;
         case 2:
-            if (anoValido){
+            if (anoValido == 1){
                 if(anoAniv % 4 == 0){
                     diasMes = 29;
                 }
@@ -74,7 +74,7 @@ void main(){
             break;
     }
 
-    if(diaAniv < 1 || diaAniv > 31){
+    if(diaAniv < 1 || diaAniv > diasMes){
         printf("\n  ..: [ ERRO D031] Dia Inexistente! \n");
         printf("     ..: O dia \" %d \" não é válido!\n", diaAniv );
         printf(" ** O mês inicia sempre a dia 1 e tem no máximo %d dias! \n", diasMes);
