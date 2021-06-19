@@ -31,11 +31,11 @@ void main(){
     printf("\nA data %d/%d/%d \n", diaAniv, mesAniv, anoAniv);
     if(anoAniv < (ano - 120)){
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
-        printf("     ..: É Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
+        printf("     ..: É Muito pouco provavel que você tenha \"%d\" anos\n",(ano - anoAniv));
         //printf(" Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else if(anoAniv > ano){
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
-        printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
+        printf("     ..: Para o ano de %d ainda faltam \"%d\" anos \n", anoAniv, (anoAniv - ano));
         //printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }else{
         anoValido = 1;
