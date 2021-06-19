@@ -6,6 +6,7 @@ void main(){
     setlocale(LC_ALL,"Portuguese");
     int diaAniv, mesAniv, anoAniv;
     int diasMes;
+    bool anoValido;
 
     //Captura da data do sistema
     time_t t;
@@ -38,6 +39,9 @@ void main(){
         printf("\n  ..: [ ERRO A0365] Ano Inválido! \n");
         printf("     ..: Para o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
         printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+    }else{
+        anoValido = true;
+        printf("Ano válido!");
     }
 
     switch (mesAniv){
@@ -55,6 +59,13 @@ void main(){
         case 9:
         case 11:
             diasMes = 31;
+            break;
+        case 2:
+            if (anoValido){
+
+            }else{
+                diasMes = 28;
+            }
             break;
         default:
             diasMes = 31;
