@@ -50,6 +50,12 @@ void main(){
         case 12:
             diasMes = 31;
             break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            diasMes = 31;
+            break;
         default:
             diasMes = 31;
             break;
