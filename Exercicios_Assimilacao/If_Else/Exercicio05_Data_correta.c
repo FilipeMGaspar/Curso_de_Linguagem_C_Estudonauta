@@ -62,7 +62,9 @@ void main(){
             break;
         case 2:
             if (anoValido){
-
+                if(anoAniv % 4 == 0){
+                    diasMes = 29;
+                }
             }else{
                 diasMes = 28;
             }
