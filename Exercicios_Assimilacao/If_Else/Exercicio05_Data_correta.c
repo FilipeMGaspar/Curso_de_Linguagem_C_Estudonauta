@@ -29,6 +29,9 @@ void main(){
     if(anoAniv < (ano - 120)){
         printf("\nÉ Muito pouco provavel que você tenha %d anos\n",(ano - anoAniv));
         printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
+    }else if(anoAniv > ano){
+        printf("\nPara o ano de %d ainda faltam %d anos \n", anoAniv, (anoAniv - ano));
+        printf("Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }
 
     if(diaAniv < 1 || diaAniv > 31){
