@@ -39,10 +39,16 @@ void main(){
         printf(" ** Por favor indique um ano entre %d e %d \n", (ano -120), ano);
     }
 
+    switch (mesAniv){
+    case 1, 3, 5, 7, 8, 10, 12:
+        int diasMes = 31;
+        break;
+    }
+
     if(diaAniv < 1 || diaAniv > 31){
         printf("\n  ..: [ ERRO D031] Dia Inexistente! \n");
         printf("     ..: O dia \" %d \" não é válido!\n", diaAniv );
-        printf(" ** O mês inicia sempre a dia 1 e tem no máximo 31 dias! \n");
+        printf(" ** O mês inicia sempre a dia 1 e tem no máximo %d dias! \n", diasMes);
 
     }
 }
