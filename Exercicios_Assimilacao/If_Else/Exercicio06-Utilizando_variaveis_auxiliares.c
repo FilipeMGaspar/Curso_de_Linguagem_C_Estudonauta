@@ -15,7 +15,7 @@ void main(){
     printf("\n Valor de X = %d \n", x);
     printf(" Valor de Y = %d \n\n", y);
 
-    printf("Trocando o valor de X com o de Y! \n");
+    printf("x passe a ter o valor de y!\ne que y passe a ter o valor de x \n");
 }
 
 /*
