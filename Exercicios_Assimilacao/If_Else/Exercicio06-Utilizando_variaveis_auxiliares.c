@@ -8,8 +8,12 @@ void main(){
     printf("Indique um número inteiro: ");
     fflush(stdin);
     scanf("%d",&x);
+    printf("Indique outro número inteiro: ");
+    fflush(stdin);
+    scanf("%d", &y);
 
     printf("\n Valor de X = %d \n", x);
+    printf("Valor de Y = %d \n\n", y);
 }
 
 /*
