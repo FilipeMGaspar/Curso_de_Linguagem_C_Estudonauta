@@ -8,6 +8,8 @@ void main(){
     printf("Indique um número inteiro: ");
     fflush(stdin);
     scanf("%d",&x);
+
+    printf("\n Valor de X = %d \n", x);
 }
 
 /*
