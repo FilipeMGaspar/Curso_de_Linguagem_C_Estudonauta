@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+void main(){
+
+}
+
 /*
 Exercico 06
 Peça um número ao usuário e armazene ele na variável x.
