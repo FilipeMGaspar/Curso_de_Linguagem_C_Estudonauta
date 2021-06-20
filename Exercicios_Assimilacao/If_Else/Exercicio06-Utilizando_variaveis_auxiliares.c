@@ -24,8 +24,8 @@ void main(){
     y = x;
     x = aux;
 
-    printf(" Valor de X = %d \n", x);
-    printf(" Valor de Y = %d \n", y);
+    printf(" ..: Valor de X = %d \n", x);
+    printf(" ..: Valor de Y = %d \n", y);
 }
 
 /*
