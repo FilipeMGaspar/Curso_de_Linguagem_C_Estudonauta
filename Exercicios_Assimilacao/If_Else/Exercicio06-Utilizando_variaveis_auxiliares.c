@@ -4,6 +4,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     int x, y;
+    int aux;
 
     printf("Indique um número inteiro: ");
     fflush(stdin);
@@ -17,7 +18,14 @@ void main(){
 
     printf("Agora vamos fazer com que: \n");
     printf(" X passe a ter o valor de Y \n");
-    printf(" e que Y passe a ter o valor de X \n");
+    printf(" e que Y passe a ter o valor de X \n\n");
+
+    aux = y;
+    y = x;
+    x = aux;
+
+    printf(" Valor de X = %d \n", x);
+    printf(" Valor de Y = %d \n", y);
 }
 
 /*
