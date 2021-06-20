@@ -15,9 +15,9 @@ void main(){
     printf("\n Valor de X = %d \n", x);
     printf(" Valor de Y = %d \n\n", y);
 
-    printf("Agora vamos fazer com que: ");
-    printf(" x passe a ter o valor de y \n");
-    printf(" e que y passe a ter o valor de x \n");
+    printf("Agora vamos fazer com que: \n");
+    printf(" X passe a ter o valor de Y \n");
+    printf(" e que Y passe a ter o valor de X \n");
 }
 
 /*
