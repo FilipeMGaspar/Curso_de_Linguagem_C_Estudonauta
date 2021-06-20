@@ -13,7 +13,9 @@ void main(){
     scanf("%d", &y);
 
     printf("\n Valor de X = %d \n", x);
-    printf("Valor de Y = %d \n\n", y);
+    printf(" Valor de Y = %d \n\n", y);
+
+    printf("Trocando o valor de X com o de Y! \n");
 }
 
 /*
