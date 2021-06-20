@@ -3,6 +3,11 @@
 
 void main(){
     setlocale(LC_ALL,"Portuguese");
+    int x, y;
+
+    printf("Indique um número inteiro: ");
+    fflush(stdin);
+    scanf("%d",&x);
 }
 
 /*
