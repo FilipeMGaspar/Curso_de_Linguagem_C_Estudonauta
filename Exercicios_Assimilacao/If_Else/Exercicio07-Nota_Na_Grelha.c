@@ -1,13 +1,17 @@
 #include <stdio.h>
+#include <locale.h>
 
 void main(){
+    setlocale(LC_ALL,"Portuguese");
     float nota;
 
     printf("Insira a nota do teste: ");
     fflush(stdin);
     scanf("%f", &nota);
 
-    printf("\nCom a nota de %.1f ");
+    printf("\nCom a nota de %.1f valores\n");
+    printf(" ..: A sua sitação é: \n");
+
 }
 
 /*
