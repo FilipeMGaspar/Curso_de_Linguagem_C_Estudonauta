@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 void main(){
+    float nota;
+
+    printf("Insira a nota do teste: ");
+
 
 }
 
