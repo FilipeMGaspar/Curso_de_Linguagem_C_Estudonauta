@@ -1,3 +1,9 @@
+#include <stdio.h>
+
+void main(){
+
+}
+
 /*
 Desafio 2. Crie um programa
 Que recebe uma nota (entre 0.0 e 10.0)
