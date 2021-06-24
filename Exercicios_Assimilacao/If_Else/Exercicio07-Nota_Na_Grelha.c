@@ -6,6 +6,8 @@ void main(){
     printf("Insira a nota do teste: ");
     fflush(stdin);
     scanf("%f", &nota);
+
+    printf("\nCom a nota de %.1f ");
 }
 
 /*
