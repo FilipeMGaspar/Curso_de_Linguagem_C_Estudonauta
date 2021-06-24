@@ -9,7 +9,7 @@ void main(){
     fflush(stdin);
     scanf("%f", &nota);
 
-    printf("\nCom a nota de %.1f valores\n");
+    printf("\nCom a nota de %.1f valores\n", nota);
     printf(" ..: A sua sitação é: \n");
 
 }
