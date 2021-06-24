@@ -4,8 +4,8 @@ void main(){
     float nota;
 
     printf("Insira a nota do teste: ");
-
-
+    fflush(stdin);
+    scanf("%f", &nota);
 }
 
 /*
