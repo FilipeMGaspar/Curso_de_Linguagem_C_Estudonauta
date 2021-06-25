@@ -12,11 +12,11 @@ void main(){
     printf("\nCom a nota de %.1f valores\n", nota);
     printf(" ..: Fica na sitação de: \n");
     if (nota >= 7){
-        printf("** Passou direto! \n");
+        printf("** Passou direto! \n\n");
     }else if(nota >= 4){
-        printf("-> Prova de recuperação! \n");
+        printf("-> Prova de recuperação! \n\n");
     }else if(nota >= 0){
-        printf("## Reprovado na Matéria!");
+        printf("## Reprovado na Matéria! \n\n");
     }
 }
 
