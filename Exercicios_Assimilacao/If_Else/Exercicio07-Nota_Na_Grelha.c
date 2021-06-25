@@ -12,7 +12,7 @@ void main(){
     printf("\nCom a nota de %.1f valores\n", nota);
     printf(" ..: Fica na sitação de: \n");
     if (nota >= 7){
-        printf("Passou direto!");
+        printf("Passou direto! \n");
     }
 }
 
