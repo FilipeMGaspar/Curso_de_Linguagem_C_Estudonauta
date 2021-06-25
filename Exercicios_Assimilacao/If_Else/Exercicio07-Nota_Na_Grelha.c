@@ -13,6 +13,8 @@ void main(){
     printf(" ..: Fica na sitação de: \n");
     if (nota >= 7){
         printf("Passou direto! \n");
+    }else if(nota >= 4){
+        printf("Prova de recuperação! \n");
     }
 }
 
