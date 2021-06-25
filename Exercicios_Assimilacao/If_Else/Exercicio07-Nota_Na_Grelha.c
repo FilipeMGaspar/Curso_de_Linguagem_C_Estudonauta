@@ -15,6 +15,8 @@ void main(){
         printf("** Passou direto! \n");
     }else if(nota >= 4){
         printf("-> Prova de recuperação! \n");
+    }else if(nota >= 0){
+        printf("## Reprovado na Matéria!");
     }
 }
 
