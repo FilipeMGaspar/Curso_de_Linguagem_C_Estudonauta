@@ -2,7 +2,13 @@
 
 void main(){
     float a, b,c;
+    float x;
 
+    if(pow(b) - 4 * a *c) >= 0{
+
+    }else{
+        printf("Não tem raiz Real!");
+    }
     printf("%.2f", sqrt(25));
 }
 
