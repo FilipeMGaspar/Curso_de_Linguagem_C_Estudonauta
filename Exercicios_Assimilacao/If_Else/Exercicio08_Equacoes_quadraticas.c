@@ -18,7 +18,7 @@ void main(){
     scanf("%f",&c);
 
     if((pow(b,2) - 4 * a *c) >= 0){
-        printf("Raiz \n");
+        printf("Raiz %.2f\n", pow(b,2) - 4 * a *c);
     }else{
         printf("\nNão tem raiz Real! \n");
     }
