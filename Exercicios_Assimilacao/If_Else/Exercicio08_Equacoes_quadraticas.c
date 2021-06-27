@@ -5,6 +5,11 @@ void main(){
     float a, b,c;
     float x;
 
+    printf("Valor de A= ");
+    fflush(stdin);
+    scanf("%f",&a);
+    printf("VAlor de B= ");
+
     if((pow(b,2) - 4 * a *c) >= 0){
         printf("Raiz \n");
     }else{
