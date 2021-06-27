@@ -10,7 +10,10 @@ void main(){
     printf("Valor de A= ");
     fflush(stdin);
     scanf("%f",&a);
-    printf("VAlor de B= ");
+    printf("Valor de B= ");
+    fflush(stdin);
+    scanf("%f",&b);
+
 
     if((pow(b,2) - 4 * a *c) >= 0){
         printf("Raiz \n");
