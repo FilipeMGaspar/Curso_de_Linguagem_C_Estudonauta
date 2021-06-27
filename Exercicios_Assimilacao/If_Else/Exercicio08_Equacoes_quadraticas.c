@@ -5,7 +5,7 @@
 void main(){
     setlocale(LC_ALL,"Portuguese");
     float a, b,c;
-    float x;
+    float xPos,xNeg;
 
     printf("Valor de A= ");
     fflush(stdin);
@@ -18,6 +18,7 @@ void main(){
     scanf("%f",&c);
 
     if((pow(b,2) - 4 * a *c) >= 0){
+        xPos = -b +
         printf("Raiz %.2f\n", pow(b,2) - 4 * a *c);
     }else{
         printf("\nNão tem raiz Real! \n");
