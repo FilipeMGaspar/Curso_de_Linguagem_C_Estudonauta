@@ -5,11 +5,11 @@ void main(){
     float x;
 
     if(pow(b) - 4 * a *c) >= 0{
-
+        printf("Raiz \n");
     }else{
-        printf("Não tem raiz Real!");
+        printf("Não tem raiz Real! \n");
     }
-    printf("%.2f", sqrt(25));
+   //printf("%.2f", sqrt(25));
 }
 
 /*
