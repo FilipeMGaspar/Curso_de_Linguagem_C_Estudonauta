@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <math.h>
 
 void main(){
     float a, b,c;
     float x;
 
-    if(pow(b) - 4 * a *c) >= 0{
+    if((pow(b,2) - 4 * a *c) >= 0){
         printf("Raiz \n");
     }else{
         printf("Não tem raiz Real! \n");
