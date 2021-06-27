@@ -13,7 +13,9 @@ void main(){
     printf("Valor de B= ");
     fflush(stdin);
     scanf("%f",&b);
-
+    printf("Valor de C = ");
+    fflush(stdin);
+    scanf("%f",&c);
 
     if((pow(b,2) - 4 * a *c) >= 0){
         printf("Raiz \n");
