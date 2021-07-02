@@ -7,4 +7,9 @@ void main(){
     time(&t);
     struct tm *data;
     data = localtime(&t);
+
+    int diaDaSemana = data->tm_wday + 1;
+
+
+    printf("%d", diaDaSemana);
 }
