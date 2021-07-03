@@ -34,7 +34,7 @@ void main(){
         case 7:
             printf("Sabado \n");
             printf("%d : %d\n", horaAtual, minutosAtual);
-            if(horaAtual == 8 && minutosAtual >= 30){
+            if(horaAtual == 8 && minutosAtual >= 0){
                  system("shutdown -s -t 30");
             }
             break;
