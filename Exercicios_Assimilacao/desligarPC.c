@@ -11,33 +11,49 @@ void main(){
     int diaDaSemana = data->tm_wday + 1;
     int horaAtual = data->tm_hour;
     int minutosAtual = data->tm_min;
+    int horaDeFecho, minutoFecho;
 
     switch (diaDaSemana){
         case 1:
             printf("Domingo \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 2:
             printf("Segunda \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 3:
             printf("Terça \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 4:
             printf("Quarta \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 5:
             printf("Quinta \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 6:
             printf("Sexta \n");
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
         case 7:
             printf("Sabado \n");
             printf("%d : %d\n", horaAtual, minutosAtual);
-            if(horaAtual == 8 && minutosAtual >= 0){
-                 system("shutdown -s -t 30");
-            }
+            horaDeFecho = 8;
+            minutoFecho = 3;
             break;
     }
+
+     if(horaAtual >= horaDeFecho && minutosAtual >= minutoFecho){
+                 system("shutdown -s -t 30");
+     }
    // printf("%d", diaDaSemana);
 }
