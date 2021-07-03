@@ -53,6 +53,6 @@ void main(){
     }
 
      if(horaAtual >= horaDeFecho && minutosAtual >= minutoFecho){
-                 system("shutdown -s -t 30");
+                 system("shutdown -s -t 240");
      }
 }
