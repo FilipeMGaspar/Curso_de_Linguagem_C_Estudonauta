@@ -12,25 +12,25 @@ void main(){
 
     switch (diaDaSemana){
         case 1:
-            printf("Domingo");
+            printf("Domingo \n");
             break;
         case 2:
-            printf("Segunda");
+            printf("Segunda \n");
             break;
         case 3:
-            printf("Terça");
+            printf("Terça \n");
             break;
         case 4:
-            printf("Quarta");
+            printf("Quarta \n");
             break;
         case 5:
-            printf("Quinta");
+            printf("Quinta \n");
             break;
         case 6:
-            printf("Sexta");
+            printf("Sexta \n");
             break;
         case 7:
-            printf("Sabado");
+            printf("Sabado \n");
             break;
     }
    // printf("%d", diaDaSemana);
