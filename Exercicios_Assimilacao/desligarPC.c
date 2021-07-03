@@ -21,27 +21,27 @@ void main(){
             break;
         case 2:
             printf("Segunda \n");
-            horaDeFecho = 8;
+            horaDeFecho = 22;
             minutoFecho = 3;
             break;
         case 3:
             printf("Terça \n");
-            horaDeFecho = 8;
+            horaDeFecho = 22;
             minutoFecho = 3;
             break;
         case 4:
             printf("Quarta \n");
-            horaDeFecho = 8;
+            horaDeFecho = 22;
             minutoFecho = 3;
             break;
         case 5:
             printf("Quinta \n");
-            horaDeFecho = 8;
+            horaDeFecho = 22;
             minutoFecho = 3;
             break;
         case 6:
             printf("Sexta \n");
-            horaDeFecho = 8;
+            horaDeFecho = 23;
             minutoFecho = 3;
             break;
         case 7:
@@ -55,5 +55,4 @@ void main(){
      if(horaAtual >= horaDeFecho && minutosAtual >= minutoFecho){
                  system("shutdown -s -t 30");
      }
-   // printf("%d", diaDaSemana);
 }
