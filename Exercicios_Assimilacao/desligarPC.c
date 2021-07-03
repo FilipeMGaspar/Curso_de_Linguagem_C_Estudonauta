@@ -9,6 +9,8 @@ void main(){
     data = localtime(&t);
 
     int diaDaSemana = data->tm_wday + 1;
+    int horaAtual = data->tm_hour;
+    int minutosAtual = data->tm_min;
 
     switch (diaDaSemana){
         case 1:
@@ -31,6 +33,10 @@ void main(){
             break;
         case 7:
             printf("Sabado \n");
+            printf("%d : %d\n", horaAtual, minutosAtual);
+            if(horaAtual == 8 && minutosAtual == 30){
+                 system("C:\\WINDOWS\\System32\\shutdown /s");
+            }
             break;
     }
    // printf("%d", diaDaSemana);
